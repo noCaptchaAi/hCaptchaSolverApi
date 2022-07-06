@@ -154,3 +154,14 @@ For method='/solve'
 ```
   {"created": 1657095043, "data_type": null, "id": "62c588724ca5be9bae55", "ptime": "1.47s", "solution": {"0": true, "1": true, "2": false, "3": true, "4": true, "5": false, "6": true, "7": false, "8": false}, "status": "processed", "success": true, "target": "train", "ttime": "2.38s", "updated": 1657112692}
 ```
+
+
+## Puppeteer example
+Install
+```
+npm install puppeteer axios
+```
+put your uid and apikey on thefile asked for. and run
+```
+node puppeteer.js
+```
