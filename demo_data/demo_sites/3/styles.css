@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  background-color: #121212;
+  vertical-align: middle;
+  display: table-cell;
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: Helvetica;
+}
+
+a {
+  color: #87ceeb;
+}
