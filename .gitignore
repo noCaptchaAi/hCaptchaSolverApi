@@ -1,0 +1,5 @@
+test
+package*
+node_modules
+.venv
+data
