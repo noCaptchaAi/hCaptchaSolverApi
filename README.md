@@ -9,17 +9,19 @@ hCaptcha solver api,can automagically bypass hcaptcha challenges with http reque
 ## API Use cases
 ---
 
-* use with browser automation scripts
-  => selenium, puppeteer, playwright etc
+* Use along with browser automation scripts
+  * selenium
+  * puppeteer
+  * playwright etc
 * Testing
-* Writeaddons for cross browsers solving
+* Write cross browsers extentions
 * Others
 
 <!-- ## Benchmark
 ---
 Execution time per captcha solve: 
 
-1-3s \
+1-3sec \
 (depends on network and api comditions) -->
 
 ## API endpoints
