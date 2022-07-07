@@ -1,37 +1,18 @@
 # hCaptcha Solver api [WIP]
 
-
-
 ### Tired of "Are you human?" questions or hCaptchas?
 
 hCaptcha solver api can automagically bypass hCaptcha challenges with http requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood and more
 
-\
-
-
-
 `project in WIP - expect bugs.`
-
 
 
 ## API Use cases
 
 ---
-
-
-
 * Use along with browser automation scripts
-
-  * selenium
-
-  * puppeteer
-
-  * playwright etc
-
 * Testing
-
-* Write cross browsers extensions
-
+* Writing cross browsers extensions
 * Others
 
 
@@ -42,19 +23,14 @@ hCaptcha solver api can automagically bypass hCaptcha challenges with http reque
 
 Execution time per captcha solve: 
 
-
-
 1-3sec \
 
 (depends on network and api conditions) -->
 
 
-
 ## API endpoints
 
 ---
-
-
 
 `Base api = https://solve.shimul.me`
 
