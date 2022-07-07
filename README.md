@@ -1,7 +1,7 @@
 # hCaptcha Solver api [WIP]
 
-## Tired of "Are you human?" questions?
-hCaptcha solver api,can automagically bypass hcaptcha challenges with http requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood
+### Tired of "Are you human?" questions or hCaptchas?
+hCaptcha solver api can automagically bypass hcaptcha challenges with http requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood
 \
 
 `project in WIP - expect bugs.`
