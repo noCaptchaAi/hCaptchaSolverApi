@@ -38,29 +38,12 @@ Execution time per captcha solve: 
 
 You will need the `UID` and `apikey` for sending request.
 
-To get them, register with a `post` request with email and secure password to endpoint below once to get uid and apikey.
-
-
-
-feelin lazy? use pre-made files on your left, but edit them with your info before executing.
-
-
-
- * `node get_apikey.js` 
-
- * `python get_apikey.py`
-
-
-
-
+To get them, register with a `post` request with email and secure password to base api above once to get uid and apikey.
+Or use the instruction below.
 
 ## Apikey Signup:
 
 ---
-
-
-
-
 
 Node: 
 
@@ -77,15 +60,9 @@ Python:
 * `python get_apikey.py`
 
 
-
-
-
 Result:
 
-
-
 ```
-
 200
 
 {
@@ -96,14 +73,14 @@ Result:
 
   time_stamp: 1657126092,
 
-  apikey: 'cf117eac-74cc-118c-78ef-ecec2c883578'
-
 }
-
 ```
 
+=> Check the email you provided. You should receive your api key like below.
 
-
+```
+apikey: 'cf117eac-74cc-118c-78ef-ecec2c883578'
+```
 = > Save your ```UID``` and ```APIKEY``` (APIKEY will be sent to your email)
 
 
