@@ -1,10 +1,12 @@
 const axios = require('axios');
 const base_url = 'https://solve.shimul.me'
 
-const user_id='test'
-const email='test@example.com'
-const password = 'password'
-const name = 'Jhon Doe'
+
+// Fill details bellow before making request
+const user_id=''
+const email=''
+const password = ''
+const name = ''
 
 
 const result = axios({
