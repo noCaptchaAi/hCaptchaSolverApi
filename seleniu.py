@@ -1,3 +1,8 @@
+uid="62c6bf7eb1e76d24e366" #Replace with your own UID
+apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" #Replace with your own apikey
+base_url = 'https://solve.shimul.me'
+
+
 import time
 
 import undetected_chromedriver as uc
@@ -66,11 +71,10 @@ def main():
             url = re.split(r'[(")]', image_style)[2]
             image_data[number]=url
 
-        base_url = 'https://solve.shimul.me'
-        base_url='https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpreview.dev'
+
+        
         full_url=base_url+'/solveww?target='+target+'&site='+driver.current_url+'&data_type=image'
-        uid="62c6bf7eb1e76d24e366"
-        apikey="62d0243f-7107-67ee-f312-09d8f5af84f3"
+        
 
         # Sending the request to api server
         print("Sending request to api server")
