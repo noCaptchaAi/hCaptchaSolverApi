@@ -87,19 +87,19 @@ const base_url = 'https://solve.shimul.me';
             }
     
           btn=await fm.evaluate(() => document.querySelector(".button-submit").textContent)
-        //   if (btn == "Verify") {
-        //     await page.waitForTimeout(200) 
-        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
-        //     target = undefined
-        //   } else if (btn == "Next") {
-        //     await page.waitForTimeout(200)
-        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
-        //     // console.log("Next btn clicked.")
-        //   } else {
-        //     // console.log("btn name is not Verify.")
-        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
-        //     // await page.waitForTimeout(1000) 
-        //   }
+          if (btn == "Verify") {
+            await page.waitForTimeout(200) 
+            await fm.evaluate(() => document.querySelector(".button-submit").click());
+            target = undefined
+          } else if (btn == "Next") {
+            await page.waitForTimeout(200)
+            await fm.evaluate(() => document.querySelector(".button-submit").click());
+            // console.log("Next btn clicked.")
+          } else {
+            // console.log("btn name is not Verify.")
+            await fm.evaluate(() => document.querySelector(".button-submit").click());
+            // await page.waitForTimeout(1000) 
+          }
         }catch(e){console.log(e)}
       }
     
