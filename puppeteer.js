@@ -2,8 +2,8 @@
 // put your uid and apikey bellow
 // run node puppeteer.js
 
-const uid="" // put your uid inside ""
-const apikey="" // put your apikey inside ""
+const uid="62c6bf7eb1e76d24e366" // put your uid inside ""
+const apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" // put your apikey inside ""
 
 var args_command = process.argv.slice(3);
 const puppeteer = require('puppeteer');
@@ -43,6 +43,7 @@ const base_url = 'https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpre
     data_type='image'
     var site = await page.evaluate(() => document.location.href)
     
+    // console.log(images)
     await solve(images, target)
 
 
@@ -80,19 +81,19 @@ const base_url = 'https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpre
             }
     
           btn=await fm.evaluate(() => document.querySelector(".button-submit").textContent)
-          if (btn == "Verify") {
-            await page.waitForTimeout(200) 
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            target = undefined
-          } else if (btn == "Next") {
-            await page.waitForTimeout(200)
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // console.log("Next btn clicked.")
-          } else {
-            // console.log("btn name is not Verify.")
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // await page.waitForTimeout(1000) 
-          }
+        //   if (btn == "Verify") {
+        //     await page.waitForTimeout(200) 
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     target = undefined
+        //   } else if (btn == "Next") {
+        //     await page.waitForTimeout(200)
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     // console.log("Next btn clicked.")
+        //   } else {
+        //     // console.log("btn name is not Verify.")
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     // await page.waitForTimeout(1000) 
+        //   }
         }catch(e){console.log(e)}
       }
     

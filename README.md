@@ -211,23 +211,23 @@ site='https://shimuldn.github.io/hcp/demo_data/demo_sites/1/index.html'
 
 images_url={
 
-    "0": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/0.png",
+    "0": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
 
-    "1": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/1.png",
+    "1": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/1.png",
 
-    "2": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/2.png",
+    "2": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/2.png",
 
-    "3": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/3.png",
+    "3": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/3.png",
 
-    "4": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/4.png",
+    "4": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/4.png",
 
-    "5": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/5.png",
+    "5": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/5.png",
 
-    "6": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/6.png",
+    "6": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/6.png",
 
-    "7": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/7.png",
+    "7": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/7.png",
 
-    "8": "https://github.com/shimuldn/hcp/raw/main/demo_data/img/train/8.png"
+    "8": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/8.png"
 
 }
 
