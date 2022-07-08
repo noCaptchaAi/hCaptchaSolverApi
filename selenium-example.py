@@ -1,3 +1,9 @@
+####
+# Fill your own UID and API KEY bellow before using.
+# Make sure you already have selenium, chrome and undetected_chromedriver installed.
+# If you have any issue please create a github issue or you can ask help on Discord https://discord.gg/E7FfzhZqzA
+# 
+####
 uid="62c6bf7eb1e76d24e366" #Replace with your own UID
 apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" #Replace with your own apikey
 base_url = 'https://solve.shimul.me'
@@ -22,7 +28,7 @@ from selenium.common.exceptions import (
 
 options = webdriver.ChromeOptions()
 # options.binary_location = "C:\\Users\\ROG\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
-options.binary_location = "C:\\Users\\ROG\\Documents\\Chromium-Portable-win64-codecs-sync-oracle\\bin\\chrome.exe"
+# options.binary_location = "C:\\Users\\ROG\\Documents\\Chromium-Portable-win64-codecs-sync-oracle\\bin\\chrome.exe"
 options.add_argument("start-maximized")
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
