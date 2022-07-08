@@ -43,7 +43,7 @@ const base_url = 'https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpre
     data_type='image'
     var site = await page.evaluate(() => document.location.href)
     
-    console.log(images)
+    // console.log(images)
     await solve(images, target)
 
 
@@ -81,19 +81,19 @@ const base_url = 'https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpre
             }
     
           btn=await fm.evaluate(() => document.querySelector(".button-submit").textContent)
-          if (btn == "Verify") {
-            await page.waitForTimeout(200) 
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            target = undefined
-          } else if (btn == "Next") {
-            await page.waitForTimeout(200)
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // console.log("Next btn clicked.")
-          } else {
-            // console.log("btn name is not Verify.")
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // await page.waitForTimeout(1000) 
-          }
+        //   if (btn == "Verify") {
+        //     await page.waitForTimeout(200) 
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     target = undefined
+        //   } else if (btn == "Next") {
+        //     await page.waitForTimeout(200)
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     // console.log("Next btn clicked.")
+        //   } else {
+        //     // console.log("btn name is not Verify.")
+        //     await fm.evaluate(() => document.querySelector(".button-submit").click());
+        //     // await page.waitForTimeout(1000) 
+        //   }
         }catch(e){console.log(e)}
       }
     
