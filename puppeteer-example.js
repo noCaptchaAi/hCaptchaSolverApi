@@ -2,13 +2,19 @@
 // put your uid and apikey bellow
 // run node puppeteer.js
 
+
+//  Fill your own UID and API KEY bellow before using.
+//  Make sure you already have selenium, chrome and undetected_chromedriver installed.
+//  If you have any issue please create a github issue or you can ask help on Discord https://discord.gg/E7FfzhZqzA
+ 
+
+
 const uid="62c6bf7eb1e76d24e366" // put your uid inside ""
 const apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" // put your apikey inside ""
 
 var args_command = process.argv.slice(3);
 const puppeteer = require('puppeteer');
-// const base_url = 'https://solve.shimul.me';
-const base_url = 'https://shimuldn-hcaptcha-backend-5v5p44w4fv5qj-5050.githubpreview.dev';
+const base_url = 'https://solve.shimul.me';
 
 
 (async () => {
