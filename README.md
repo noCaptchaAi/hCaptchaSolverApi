@@ -2,7 +2,7 @@
 <a href="https://discord.gg/E7FfzhZqzA">
 <img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="50" height="50">
 </a>
-<a href="#">
+<a href="#" target="_blank">
 <img src="https://telegram.org/img/favicon.ico"  width="50" height="50">
 </a>
 
