@@ -88,7 +88,7 @@ Result:
 => Check the email you provided. You should receive your api key like below.
 
 ```
-apikey: 'cf117eac-74cc-118c-78ef-ecec2c883578'
+apikey: 'cf1xxxac-74cc-11xc-78ef-exxxc883xx8'
 ```
 = > Save your ```UID``` and ```APIKEY``` (APIKEY will be sent to your email)
 
