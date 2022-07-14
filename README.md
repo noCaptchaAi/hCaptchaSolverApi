@@ -6,6 +6,7 @@
 <img src="https://telegram.org/img/favicon.ico"  width="50" height="50">
 </a>
 
+# API rewriting in progress. You may find the API does not work for some problem. Sometimes the API stops working for all problem. There will be a lot of improvement in the next few days. ETA 20 JULY 2022
 
 # hCaptcha Solver api [WIP]
 
