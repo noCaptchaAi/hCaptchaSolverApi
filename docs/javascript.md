@@ -1,10 +1,10 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" width="150">
 
-## Learn more on`\usage_examples\puppeteer-example.js`
+## See more on [`\usage_examples\javascript.js`](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/javascript.js)
 
 <hr>
 
-- install npm requirements
+### install npm requirements
 
 ```
 yarn add axios
@@ -18,7 +18,7 @@ npm install axios
 pnpm install axios
 ```
 
-- to send request, edit authetication requiremnts with `uid` and `apikey`
+### to send request, edit authetication requiremnts with `uid` and `apikey`
 
 ```
 var JSON_Data = {
@@ -51,7 +51,7 @@ var res = await axios({
 })
 ```
 
-- run
+### run
 
 ```
 node script.js

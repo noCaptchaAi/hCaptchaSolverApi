@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" width="150">
 
-## Learn more on`\usage_examples\puppeteer-example.js`
+## See more on [`\usage_examples\puppeteer.js`](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/puppeteer.js)
 
 <br>
 
@@ -8,7 +8,7 @@
 
 <hr>
 
-- install npm requirements
+### install npm requirements
 
 ```
 yarn add puppeteer axios
@@ -22,7 +22,7 @@ npm install puppeteer axios
 pnpm install puppeteer axios
 ```
 
-- to send request, edit authetication requiremnts with `uid` and `apikey`
+### to send request, edit authetication requiremnts with `uid` and `apikey`
 
 ```
 var JSON_Data = {

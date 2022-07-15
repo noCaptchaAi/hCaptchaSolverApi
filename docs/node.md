@@ -1,29 +1,25 @@
 <!-- TODO -->
 <img src="https://nodejs.org/static/images/logo.svg" height="50">
 
-## Learn more on`\usage_examples\puppeteer-example.js`
+## See more on [`\usage_examples\node.js`](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/node.js)
 
 <br>
 
-## Puppeteer example
+## NodeJS example
 
-<hr>
+<br>
 
-- install npm requirements
+### install npm requirements
+---
+    
+    yarn add axios
+    
+    npm install axios
 
-```
-yarn add puppeteer axios
-```
+    pnpm install axios
 
-```
-npm install puppeteer axios
-```
-
-```
-pnpm install puppeteer axios
-```
-
-- to send request, edit authetication requiremnts with `uid` and `apikey`
+### to send request, edit authetication requiremnts with `uid` and `apikey`
+---
 
 ```
 var JSON_Data = {
@@ -56,7 +52,7 @@ var res = await axios({
 })
 ```
 
-- run
+### run
 
 ```
 node puppeteer.js

@@ -2,9 +2,9 @@
 
 <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" height="50">
 
-## 🐍 Python example:
+## 🐍 Python example
 
----
+## See more on selenium [`\usage_examples\selenium.py`](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/selenium.py)
 
 <summary>Sending Data</summary>
 
@@ -56,6 +56,6 @@
 
 <summary>Receiving Data</summary>
 
-## Heading
+TODO
 
 <!-- TODO -->
