@@ -129,8 +129,6 @@ hCaptchaSolverApi
 
 ## After successful request:
 
-<br>
-
 ### For method='api/solve'
 
 - Task created
@@ -149,7 +147,7 @@ hCaptchaSolverApi
 - Task created
 
 ```
-
+{"status": "error", "message": "unknown error happen"}
 ```
 
 ### For method='api/status'
