@@ -1,0 +1,17 @@
+{
+    "images": {
+        "0": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+        "1": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/1.png",
+        "2": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/2.png",
+        "3": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/3.png",
+        "4": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/4.png",
+        "5": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/5.png",
+        "6": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/6.png",
+        "7": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/7.png",
+        "8": "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/8.png"
+    },
+    "target": "Please click each image containing a train",
+    "data_type": "url",
+    "site_key": "b17bafa7-90bf-4070-9296-626796423086",
+    "site": "https://accounts.hcaptcha.com/"
+}
