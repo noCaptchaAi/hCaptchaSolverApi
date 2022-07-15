@@ -50,6 +50,11 @@ A task is solved under 2-10 sec, (depends on network & server load)
     4. Wait for 5 secends and send a GET request to https://solve.shimul.me/api/status?id=   < Put order id here.
     5. You will get a replay with "in queue" if not solved yet or solution.
     
+    Check this json file https://github.com/rustsoft/Api-editing/blob/main/usage_examples/send-request-body.json
+    Please make sure your request body formatting same as this
+    
+    Parameter uid, apikey, target, data_type site_key site are mandatory.
+    
 <br>
 
 <br>
