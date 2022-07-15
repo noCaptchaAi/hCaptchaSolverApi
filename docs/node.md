@@ -18,7 +18,7 @@
 
     pnpm install axios
 
-### to send request, edit authetication requiremnts with `uid` and `apikey`
+### to send request, edit authetication requiremnts with `uid`, `apikey` and `site_key`
 ---
 
 ```
