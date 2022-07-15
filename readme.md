@@ -49,10 +49,16 @@ A task is solved under 2-10 sec, (depends on network & server load)
     3. Server will give you a replay with ID and url to check the status if request successful
         else you will get error message.
     4. Wait for 5 secends and send a GET request to https://solve.shimul.me/api/status?id=   < Put order id here.
+        until you get a success or error json result.
     5. You will get a replay with "in queue" if not solved yet or solution.
     
-    Check this json file https://github.com/rustsoft/Api-editing/blob/main/usage_examples/send-request-body.json
-    Please make sure your request body formatting same as this
+    >> Check this json file https://github.com/rustsoft/Api-editing/blob/main/usage_examples/send-request-body.json
+    Please make sure your request body formatting same as this.
+    
+    >> When order successfully received received response will be
+        https://github.com/rustsoft/Api-editing/blob/main/usage_examples/response-if-order-successfull.json
+    >> When order successfully processed response will be
+        https://github.com/rustsoft/Api-editing/blob/main/usage_examples/successfully-solved.json
     
     Parameter uid, apikey, target, data_type site_key site are mandatory.
     
