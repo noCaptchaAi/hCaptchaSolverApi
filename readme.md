@@ -7,36 +7,30 @@
 
 # hCaptcha Solver api [WIP]
 
-## NOTE: API rewriting in progress, fixes are rolling in the next few days.
+Tired of  **Are you human?** Questions?
+
+**hCaptchaSolverApi** can automagically bypass hCaptcha challenges with HTTP requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood and more.
+
+
+<br>
+NOTE: API rewriting in progress, fixes are rolling in the next few days.
 
 - Expect bugs
 - Rewrite ETA: 20 JULY 2022
 
-<br>
-
-## Tired of "Are you human?" questions?
-
-## hCaptchaSolverApi can automagically bypass hCaptcha challenges with http requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood and more
-
-<br>
-
 ## USAGE
-<br>
 
-hCaptchaSolverApi is a HTTP api so usage is boundless, you can impliment with almost every lang with HTTP api.
+hCaptchaSolverApi is a HTTP api, so usage is boundless, you can implement using almost every lang having HTTP feature and so on.
 
-- Use with browser automation scripts
-- Userscripts
-- injection scrips to solve problems without extention
-- use with any browser extentions that utilises HTTP requests
-- Writing cross browsers extensions
-- Others
+- browser automation, User scripts
+- injection scrips
+- cli tools
+- use our API to make your own browsers extensions
+- anything else you can imagine
 
 <br>
 
 ## Time to Solve?
-
-<br>
 
 A task is solved under 2-10 sec, (depends on network & server load)
 
@@ -47,7 +41,7 @@ A task is solved under 2-10 sec, (depends on network & server load)
 
 `Base api = https://solve.shimul.me/api`
 
-Note: Only accepts authenticaed requests with `uid` and `apikey`
+Note: Only accepts authenticated requests with `uid` and `apikey`
 
 <br>
 
@@ -82,7 +76,7 @@ Demo Request Data:
 - clone project
 - fill with valid info `/api_signup/"pick a file".ext`
 - run
-- check email for api key
+- check email for API key
 - done, use with your scripts
 
 ---
