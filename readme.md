@@ -39,6 +39,35 @@ hCaptchaSolverApi is a HTTP api, so usage is boundless, you can implement using 
 
 A task is solved under 2-10 sec, (depends on network & server load)
 
+
+## How this API work. 
+<br>
+
+    1. Get the captcha url programmatically (currently 9 images are solvable).
+    2. Send a post request to https://solve.shimul.me/api/solve with your
+        UID and APIKEY in Headers and images link with other parameter in body.
+    3. Server will give you a replay with ID and url to check the status if request successful
+        else you will get error message.
+    4. Wait for 5 secends and send a GET request to https://solve.shimul.me/api/status?id=   < Put order id here.
+        until you get a success or error json result.
+    5. You will get a replay with "in queue" if not solved yet or solution.
+    
+    >> Check this json file https://github.com/rustsoft/Api-editing/blob/main/usage_examples/send-request-body.json
+    Please make sure your request body formatting same as this.
+    
+    >> When order successfully received received response will be
+        https://github.com/rustsoft/Api-editing/blob/main/usage_examples/response-if-order-successfull.json
+        
+    >> When order successfully processed response will be
+        https://github.com/rustsoft/Api-editing/blob/main/usage_examples/successfully-solved.json
+    
+    Parameter uid, apikey, target, data_type site_key site are mandatory.
+   
+    
+<br>
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/12117121/179324224-817a2ca4-5dd2-49de-95d5-4d00e2152acd.png">
+<img width="258" alt="image" src="https://user-images.githubusercontent.com/12117121/179324245-faf5ad7c-8554-4433-9057-201c72594997.png">
+
 <br>
 
 ## API access & Endpoint
