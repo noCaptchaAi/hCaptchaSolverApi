@@ -13,7 +13,6 @@
 - Rewrite ETA: 20 JULY 2022
 
 <br>
-<hr>
 
 ## Tired of "Are you human?" questions?
 
@@ -22,8 +21,6 @@
 <br>
 
 ## USAGE
-
-<hr>
 <br>
 
 hCaptchaSolverApi is a HTTP api so usage is boundless, you can impliment with almost every lang with HTTP api.
@@ -39,7 +36,7 @@ hCaptchaSolverApi is a HTTP api so usage is boundless, you can impliment with al
 
 ## Time to Solve?
 
-<hr>
+<br>
 
 A task is solved under 2-10 sec, (depends on network & server load)
 
@@ -47,7 +44,6 @@ A task is solved under 2-10 sec, (depends on network & server load)
 
 ## API access & Endpoint
 
----
 
 `Base api = https://solve.shimul.me/api`
 
@@ -81,7 +77,7 @@ Demo Request Data:
 
 ## How to Get uid and API Key
 
-<hr>
+<br>
 
 - clone project
 - fill with valid info `/api_signup/"pick a file".ext`
@@ -139,7 +135,6 @@ hCaptchaSolverApi
 
 ## After successful request:
 
-<hr>
 <br>
 
 ### For method='api/solve'
