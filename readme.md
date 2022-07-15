@@ -44,7 +44,6 @@ A task is solved under 2-10 sec, (depends on network & server load)
 
 ## API access & Endpoint
 
----
 
 `Base api = https://solve.shimul.me/api`
 
