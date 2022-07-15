@@ -2,10 +2,6 @@
 
 ## Learn more on`\usage_examples\puppeteer-example.js`
 
-<br>
-
-## Puppeteer example
-
 <hr>
 
 - install npm requirements
