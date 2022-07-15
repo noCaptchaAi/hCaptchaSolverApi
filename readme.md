@@ -57,12 +57,16 @@ A task is solved under 2-10 sec, (depends on network & server load)
     
     >> When order successfully received received response will be
         https://github.com/rustsoft/Api-editing/blob/main/usage_examples/response-if-order-successfull.json
+        
     >> When order successfully processed response will be
         https://github.com/rustsoft/Api-editing/blob/main/usage_examples/successfully-solved.json
     
     Parameter uid, apikey, target, data_type site_key site are mandatory.
+   
     
 <br>
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/12117121/179324224-817a2ca4-5dd2-49de-95d5-4d00e2152acd.png">
+<img width="258" alt="image" src="https://user-images.githubusercontent.com/12117121/179324245-faf5ad7c-8554-4433-9057-201c72594997.png">
 
 <br>
 
