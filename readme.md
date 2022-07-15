@@ -28,6 +28,11 @@ hCaptchaSolverApi is a HTTP api, so usage is boundless, you can implement using 
 - use our API to make your own browsers extensions
 - anything else you can imagine
 
+## Get Started Docs Browser
+    <a id="Javascript"></a>
+    ## Getting Started
+
+
 <br>
 
 ## Time to Solve?
