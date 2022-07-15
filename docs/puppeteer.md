@@ -22,7 +22,7 @@ npm install puppeteer axios
 pnpm install puppeteer axios
 ```
 
-### to send request, edit authetication requiremnts with `uid` and `apikey`
+### to send request, edit authetication requiremnts with `uid`, `apikey` and `site_key`
 
 ```
 var JSON_Data = {
