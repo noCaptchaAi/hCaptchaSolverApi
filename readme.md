@@ -39,6 +39,19 @@ hCaptchaSolverApi is a HTTP api, so usage is boundless, you can implement using 
 
 A task is solved under 2-10 sec, (depends on network & server load)
 
+
+## How this API work. 
+<br>
+
+    1. Get the captcha url programmatically (currently 9 images are solvable).
+    2. Send a post request to https://solve.shimul.me/api/solve with your
+        UID and APIKEY in Headers and images link with other parameter in body.
+    3. Server will give you a replay with ID and url to check the status if request successful else you will get error message.
+    4. Wait for 5 secends and send a GET request to https://solve.shimul.me/api/status?id=   < Put order id here.
+    5. You will get a replay with "in queue" if not solved yet or solution.
+    
+<br>
+
 <br>
 
 ## API access & Endpoint
