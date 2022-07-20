@@ -1,14 +1,24 @@
 # pip install requests
 import requests, json
-base_url = 'https://solve.shimul.me'
+base_url = 'https://solve.shimul.me/api/'
 
 
-# Fill details bellow before making request
+
+# Fill details bellow before making request. Password are encrypted before saving it to database
 user_id=''
 email=''
 password = ''
 name = ''
 
-r = requests.get(url = base_url+'/account/signup', headers={'Content-Type': 'application/json'}, data = json.dumps({'user_id': user_id, 'email': email, 'password': password, 'name': name}))
 
+signup_data={}
+signup_data['user_id']=user_id
+signup_data['email']=email
+signup_data['name']=name
+signup_data['password']=password
+
+r = requests.post(url = base_url+'account/signup', headers={'Content-Type': 'application/json'}, data = json.dumps(signup_data))
+
+
+# print(r)
 print(json.dumps(r.json()))
