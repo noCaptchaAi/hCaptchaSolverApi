@@ -12,11 +12,8 @@ Tired of  **Are you human?** Questions?
 **hCaptchaSolverApi** can automagically bypass hCaptcha challenges with HTTP requests. Use with puppeteer, selenium, playwright browser automation scripts to bypass hCaptcha under the hood and more.
 
 
-<br>
-NOTE: API rewriting in progress, fixes are rolling in the next few days.
-
-- Expect bugs
-- Rewrite ETA: 20 JULY 2022
+## Currently solving
+Living room, loving room, conference room, horse, lion, bridge, bedroom, domestic cat, aeroplane, car, seaplane, seaplane, aeroplane, bus, truck, motorbike, boat, bicycle, train
 
 ## USAGE
 
