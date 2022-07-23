@@ -11,7 +11,7 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 * 🌀 Use with JS, Python, Puppeteer, selenium, playwright, Automa
 * 🔧 write for browser automation
 * 🌐 use with userscripts
-* 👽️ use with cli tools
+* 💡 use with cli tools
 * 📦️ browsers extensions (comin soon..)
 
 
