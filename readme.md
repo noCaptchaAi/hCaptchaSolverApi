@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="40"/> 
+<img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="60"/> 
 
 # 👽️ hCaptcha Solver Api (beta) 
 
