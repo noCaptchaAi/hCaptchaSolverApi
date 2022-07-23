@@ -1,23 +1,27 @@
-<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="50" height="50">
-</a>
-<a href="https://t.me/hCaptchaSolverApi" target="_blank">
-<img src="https://telegram.org/img/favicon.ico"  width="50" height="50">
-</a>
+<img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="40"/> 
 
-# hCaptcha Solver api (beta)
+# 👽️ hCaptcha Solver Api (beta) 
 
 Solve hcaptcha with noCaptchaAi HTTP API, \
 works with ```puppeteer, Selenium, Playwright``` etc out of box, \
 Never solve a hCaptcha yourself again, Let's GO!!!
 
 ## Features:
-* Average solve within 2-6 sec + network & server load factors
-* Use with JS, Python, Puppeteer, selenium, playwright, Automa
-* write for browser automation
-* use with userscripts
-* use with cli tools
-* browsers extensions (comin soon..)
+* ⚡ Average solve within 2-6 sec + network & server load factors
+* 🌀 Use with JS, Python, Puppeteer, selenium, playwright, Automa
+* 🔧 write for browser automation
+* 🌐 use with userscripts
+* 👽️ use with cli tools
+* 📦️ browsers extensions (comin soon..)
+
+
+## Community
+<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
+<img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="50" height="50">
+</a>
+<a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="50" height="50">
+</a>
 
 
 ## AI Currently solving
@@ -30,7 +34,7 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 
 
 ## 🌱 ROADMAP
-* 🔥 Free Browser 🔌 Extention.. WIP
+* 🔥 Free Browser 🔌 Extention.. (WIP)
 * ⭐ = We work more harder. spread the word :p
 * 🌐 New Promo website
 * 🔧 API Documentation site 
@@ -96,7 +100,7 @@ Demo Request Data:
 
 ```
 
-## GET APIKey
+## 🚚 GET APIKey
 
 <br>
 
