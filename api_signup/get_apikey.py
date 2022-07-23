@@ -1,4 +1,5 @@
 # pip install requests
+# python3 get_apikey.py
 import requests, json
 base_url = 'https://solve.shimul.me/api/'
 
