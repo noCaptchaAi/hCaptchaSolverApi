@@ -46,7 +46,7 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 
 
 
-## How to USE api? 
+## How to USE API? 
 
 Base api ``` = https://solve.shimul.me/api/solve/``` 
 
