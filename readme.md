@@ -48,9 +48,9 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 
 ## How to USE api? 
 
-Base api ``` = https://solve.shimul.me/api/solve/``` \
+Base api ``` = https://solve.shimul.me/api/solve/``` 
 
-how to get API? instructions [below](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/readme.md#-get-apikey)
+Get ApiKey [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/readme.md#-get-apikey)
 (website coming soon..)
 
 * Get the captcha url programmatically (currently 9 images are solvable).
