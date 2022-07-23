@@ -50,7 +50,7 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 
 Base api ``` = https://solve.shimul.me/api/solve/``` \
 
-how to get API? instructions [check below](https://github.com/shimuldn/hCaptchaSolverApi/edit/main/readme.md#how-to-get-uid-and-api-key)
+how to get API? instructions [below](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/readme.md#-get-apikey)
 (website coming soon..)
 
 * Get the captcha url programmatically (currently 9 images are solvable).
