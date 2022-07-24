@@ -9,7 +9,7 @@
 ## hCaptcha Solver Api (beta) 
 
 Solve hcaptcha with HTTP API <br>
-Works with ```puppeteer, Selenium, Playwright``` etc out of box. <br>
+Works with `puppeteer`, ``` Selenium, Playwright``` etc out of box. <br>
 Automate workflow and throw captcha solving to our ai, Let's GO!!!
 
 <span>⬇️ Selenium Demo</span>
