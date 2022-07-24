@@ -18,7 +18,6 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 ![AnimationSolve](https://user-images.githubusercontent.com/12117121/180625150-b7e535f4-13fc-4137-a308-793cc1cbc919.gif)
 
 
-
 ## Community
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
 <img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="50" height="50">
@@ -30,10 +29,10 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 
 ## AI Currently solving
 
-| Name:-    | truck      | bridge | bedroom | domesticCat | aeroplane | seaplane | car | bus | lion | horse | motorbike | boat | bicycle | train | LivingRoom | conferenceRoom |
+| Name:-    | truck      | bridge | bedroom | domesticCat | aeroplane | seaplane | car | bus | lion | horse | motorbike | boat | bicycle | train | LivingRoom | lovingRoom | conferenceRoom |
 | --------- | ---------- | ------ | ------- | ----------- | --------- | -------- | --- | --- | ---- | ----- | --------- | ---- | ------- | ----- | ---------- | ---------- | -------------- |
 | Yes?      | ✔️         | ✔️     | ✔️      | ✔️          | ✔️        | ✔️       | ✔️  | ✔️  | ✔️   | ✔️    | ✔️        | ✔️   | ✔️      | ✔️    | ✔️         | ✔️         | ✔️             |
-| Accuracy: | 98%        | 95%    | 95%     | 95%         | 95%       | 95%      | 95% | 95% | 95%  | 95%   | 95%       | 95%  | 95%     | 95%   | 95%        | 95%            |
+| Accuracy: | 98%        | 95%    | 95%     | 95%         | 95%       | 95%      | 95% | 95% | 95%  | 95%   | 95%       | 95%  | 95%     | 95%   | 95%        | 95%        | 95%            |
 | Updated:  | 07/23/2022 |
 
 
