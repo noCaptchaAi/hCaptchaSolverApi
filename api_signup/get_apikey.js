@@ -11,7 +11,7 @@ const name = ''
 
 const result = axios({
   method: 'post',
-  url: base_url+'/account/signup',
+  url: base_url+'account/signup',
   headers: {
   'Content-type': 'application/json'
   },
