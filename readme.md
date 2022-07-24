@@ -1,10 +1,20 @@
-<img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="60"/> 
+<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
+<img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="30" height="30">
+</a>
+<a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="30" height="30">
+</a>
+<img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="50"/> 
 
-# 👽️ hCaptcha Solver Api (beta) 
+## hCaptcha Solver Api (beta) 
 
-Solve hcaptcha with noCaptchaAi HTTP API, \
-works with ```puppeteer, Selenium, Playwright``` etc out of box, \
+Solve hcaptcha with noCaptchaAi HTTP API, <br>
+works with ```puppeteer, Selenium, Playwright``` etc out of box, <br>
 Never solve a hCaptcha yourself again, Let's GO!!!
+
+<span>⬇️ Selenium Demo</span>
+![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
+
 
 ## Features:
 * ⚡ Average solve within 2-6 sec + network & server load factors
@@ -14,17 +24,6 @@ Never solve a hCaptcha yourself again, Let's GO!!!
 * 💡 use with cli tools
 * 📦️ browsers extensions (comin soon..)
 
-
-![AnimationSolve](https://user-images.githubusercontent.com/12117121/180625150-b7e535f4-13fc-4137-a308-793cc1cbc919.gif)
-
-
-## Community
-<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico" width="50" height="50">
-</a>
-<a href="https://t.me/hCaptchaSolverApi" target="_blank">
-<img src="https://telegram.org/img/favicon.ico"  width="50" height="50">
-</a>
 
 
 ## AI Currently solving
