@@ -8,9 +8,9 @@
 
 ## hCaptcha Solver Api (beta) 
 
-Solve hcaptcha with noCaptchaAi HTTP API, <br>
-works with ```puppeteer, Selenium, Playwright``` etc out of box, <br>
-Never solve a hCaptcha yourself again, Let's GO!!!
+Solve hcaptcha with HTTP API <br>
+Works with ```puppeteer, Selenium, Playwright``` etc out of box. <br>
+Automate workflow and throw captcha solving to our ai, Let's GO!!!
 
 <span>⬇️ Selenium Demo</span>
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
