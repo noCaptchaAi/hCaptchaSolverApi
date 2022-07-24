@@ -1,5 +1,5 @@
 const axios = require('axios');
-const base_url = 'https://solve.shimul.me'
+const base_url = 'https://solve.shimul.me/api/'
 
 
 // Fill details bellow before making request
