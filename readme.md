@@ -54,6 +54,8 @@ Base api ``` = https://solve.shimul.me/api/solve/```
 
 Get ApiKey [here](#-get-apikey)
 (website coming soon..)
+*** Only one account per person.
+*** No temp email signup will be accepted from now on.
 
 * Get the captcha url programmatically (currently 9 images are solvable).
 * Send a post request to ```https://solve.shimul.me/api/solve/``` with your
