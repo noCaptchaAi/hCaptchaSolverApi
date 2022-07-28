@@ -1,5 +1,5 @@
 <p>
-<img src="https://c.tenor.com/_W2FjRBFfkcAAAAC/cat-please.gif" height="99">
+<img src="https://c.tenor.com/_W2FjRBFfkcAAAAC/cat-please.gif" height="99" alt="please">
 </a> ⭐⭐⭐ us and spread the word. <br>
 Join our <a href="https://t.me/hCaptchaSolverApi" target="_blank">
 <img src="https://telegram.org/img/favicon.ico"  width="25" height="25">Telegram </a> and </a>
