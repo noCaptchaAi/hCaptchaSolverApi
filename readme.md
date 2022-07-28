@@ -1,12 +1,18 @@
-<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="30" height="30">
-</a>
-<a href="https://t.me/hCaptchaSolverApi" target="_blank">
-<img src="https://telegram.org/img/favicon.ico"  width="30" height="30">
-</a>
+<p>
+<img src="https://c.tenor.com/_W2FjRBFfkcAAAAC/cat-please.gif" height="99">
+</a>  ⭐ and spread the word. <br>
+Join our Telegram <a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="25" height="25">
+</a> and discord </a>
+  <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
+<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="25" height="25">
+</a> for quick updates..
+</p>
+<hr>
+ 
 <img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="50"/> 
 
-## hCaptcha Solver Api (beta) 
+# hCaptcha Solver Api (beta) 
 
 Solve hcaptcha with HTTP API <br>
 Works with `puppeteer`, `Selenium`, `Playwright` etc out of box. <br>
