@@ -6,6 +6,7 @@ base_url = 'https://solve.shimul.me/api/'
 
 
 # Fill details bellow before making request. Password are encrypted before saving it to database
+# Remember no temp-mail. Temp-mail = ban permanently.
 user_id=''
 email=''
 password = ''
