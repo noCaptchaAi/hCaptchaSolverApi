@@ -3,6 +3,7 @@ const base_url = 'https://solve.shimul.me/api/'
 
 
 // Fill details bellow before making request
+// Remember no temp-mail. Temp-mail = ban permanently.
 const user_id=''
 const email=''
 const password = ''
