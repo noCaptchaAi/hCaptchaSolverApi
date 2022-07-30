@@ -1,13 +1,14 @@
 <p>
-<img src="https://c.tenor.com/_W2FjRBFfkcAAAAC/cat-please.gif" height="99" alt="please">
-</a> ⭐⭐⭐ us and spread the word. <br>
-Join our <a href="https://t.me/hCaptchaSolverApi" target="_blank">
-<img src="https://telegram.org/img/favicon.ico"  width="25" height="25">Telegram </a> and </a>
   <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="25" height="25">Discord</a> community for quick updates and support
+<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="25" height="25"> Discord</a> 
+ <a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="25" height="25"> Telegram </a>
 </p>
-<hr>
- 
+
+`
+print( "⭐ for beta access" )
+`
+
 <img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="50"/> 
 
 # hCaptcha Solver Api (beta) 
