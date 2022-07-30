@@ -6,7 +6,7 @@
 </p>
 
 `
-print( "⭐ for beta access" )
+⭐ for beta access. after you done that, signup for api. contact => discord/telegram.
 `
 
 <img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="50"/> 
