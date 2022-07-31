@@ -1,4 +1,5 @@
 ####
+# pip install undetected_chromedriver selenium pillow requests flask waitress
 # Fill your own UID and API KEY bellow before using.
 # Make sure you already have selenium, chrome and undetected_chromedriver installed.
 # If you have any issue please create a github issue or you can ask help on Discord https://discord.gg/E7FfzhZqzA
@@ -10,6 +11,7 @@
 
 uid=""
 apikey=""
+
 api_url = 'https://solve.shimul.me/api/solve'
 
 from genericpath import exists
@@ -95,8 +97,8 @@ def main():
         # Sending the request to api server
         # print(json.dumps(image_data))   # uncomment this to see the request data
         print("Sending request to api server")
-        r = requests.post(url = full_url, headers={'Content-Type': 'application/json', 'uid': uid, '
-                                                   ': apikey}, data = json.dumps(data_to_send))
+        r = requests.post(url = full_url, headers={'Content-Type': 'application/json', 'uid': uid,
+        'apikey': apikey}, data = json.dumps(data_to_send))
 
         # printing the response from api server
         # print(f'Response received from api server {r.text}')
