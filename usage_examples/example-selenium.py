@@ -9,7 +9,7 @@
 
 
 uid=""
-apukey=""
+apikey=""
 api_url = 'https://solve.shimul.me/api/solve'
 
 from genericpath import exists
@@ -95,7 +95,8 @@ def main():
         # Sending the request to api server
         # print(json.dumps(image_data))   # uncomment this to see the request data
         print("Sending request to api server")
-        r = requests.post(url = full_url, headers={'Content-Type': 'application/json', 'uid': uid, 'apikey': apikey}, data = json.dumps(data_to_send))
+        r = requests.post(url = full_url, headers={'Content-Type': 'application/json', 'uid': uid, '
+                                                   ': apikey}, data = json.dumps(data_to_send))
 
         # printing the response from api server
         # print(f'Response received from api server {r.text}')
