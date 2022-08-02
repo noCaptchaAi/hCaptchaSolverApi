@@ -2,15 +2,15 @@ import axios = require("axios");
 
 var JSON_Data = {
   images: {
-    0: "https://i.imgur.com/YNtQAlR.jpeg",
-    1: "https://i.imgur.com/3T7eASH.jpeg",
-    2: "https://i.imgur.com/s4pxelS.jpeg",
-    3: "https://i.imgur.com/1IgTz4Y.jpeg",
-    4: "https://i.imgur.com/rgh5xFV.jpeg",
-    5: "https://i.imgur.com/uZcftQe.jpeg",
-    6: "https://i.imgur.com/MqmsMwz.jpeg",
-    7: "https://i.imgur.com/7lwxxXy.jpeg",
-    8: "https://i.imgur.com/uIX5UVP.jpeg",
+    0: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    1: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    2: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    3: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    4: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    5: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    6: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    7: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+    8: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
   },
   target: "train",
   data_type: "url", //base64 coming in future
