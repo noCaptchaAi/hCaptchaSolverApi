@@ -1,5 +1,4 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/shimuldn/hCaptchaSolverApi?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/shimuldn/hCaptchaSolverApi?style=flat-square)
 <img alt="Discord" src="https://img.shields.io/discord/994856206525018112">
 
 <p>
