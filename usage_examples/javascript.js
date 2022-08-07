@@ -32,19 +32,17 @@ var res = await axios({
 
 // fetch api
 async function solve(images, target) {
-  const request = await fetch(base_url + "/solve?target=", {
-    method: "get",
+  const request = await fetch("https://solve.shimul.me/solve", {
+    method: "post",
     headers: {
       "Content-type": "application/json",
       uid: uid,
       apikey: apikey,
     },
-    data: data,
-  })
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data);
-    });
+    body: JSON.stringify(JSON_Data),
+  }).then((response) => {
+    return response.json();
+  }).then((data) => {
+    console.log(data);
+  });
 }
