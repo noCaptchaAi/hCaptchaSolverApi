@@ -93,10 +93,10 @@ const solver = {
             }
             await captchaFrame.click(".button-submit");
             count = 0;
-            let g_recaptcha_response = null;
+            let g_recaptcha_response = ""
             while(true) {
                 g_recaptcha_response = await page.evaluate(() => { return document.querySelector("[id^='g-recaptcha-response-']").value; });
-                if(g_recaptcha_response != null){ break; }
+                if(g_recaptcha_response != ""){ break; }
                 count = count + 1;
                 if(count >= 5) return "Failed to Solve the Captcha.";
                 await sleep(1000);
