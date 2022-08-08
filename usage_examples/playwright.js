@@ -84,7 +84,8 @@ const solver = {
                 if(res_.hasOwnProperty("solution")) break;
                 count++;
                 if(count >= 5) return "Failed to Solve the Captcha."
-                await sleep(1500);
+//                 Polling time 3s for paid user and 5s for free user
+                await sleep(5000);
             }
             for (var correct of res_.solution) {
                 await captchaFrame.click("body > div.challenge-container > div > div > div.task-grid > div:nth-child(" + (parseInt(correct) + 1) + ")");
