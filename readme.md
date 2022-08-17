@@ -28,34 +28,38 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 
 
 ## Features:
-⚡ Average solve within 2-6 sec + network & server load factors \
+⚡ Average solve within 6 sec + network & server load factors \
 🌀 Use with JS, Python, Puppeteer, selenium, playwright, Automa \
 🔧 write for browser automation \
 🌐 use with userscripts \
 💡 use with cli tools \
-📦️ browsers extensions (comin soon..)
+
+## Upcoming
+📦️ browsers extensions (soon..)
 
 
-## AI Currently solving
+<!-- ## AI Currently solving
 
 | Name:-    | truck      | bridge | bedroom | domesticCat | aeroplane | seaplane | car | bus | lion | horse | motorbike | boat | bicycle | train | LivingRoom | lovingRoom | conferenceRoom |
 | --------- | ---------- | ------ | ------- | ----------- | --------- | -------- | --- | --- | ---- | ----- | --------- | ---- | ------- | ----- | ---------- | ---------- | -------------- |
 | Yes?      | ✔️         | ✔️     | ✔️      | ✔️          | ✔️        | ✔️       | ✔️  | ✔️  | ✔️   | ✔️    | ✔️        | ✔️   | ✔️      | ✔️    | ✔️         | ✔️         | ✔️             |
 | Accuracy: | 98%        | 95%    | 95%     | 95%         | 95%       | 95%      | 95% | 95% | 95%  | 95%   | 95%       | 95%  | 95%     | 95%   | 95%        | 95%        | 95%            |
-| Updated:  | 07/23/2022 |
+| Updated:  | 07/23/2022 | -->
 
 
 
-## How to USE out Ai API? 
+## Quick Start
 
-1. Get `apikey` by gister [here](https://solve.shimul.me/register/) 
-2 . copy Solving http endpoint:
+how to use this API? we expect users to have some programming knowledge as this is just not plug and play. This api needs some data from user end to solve the captcha's. some troubleshooting and patience is required. Please use our discord channel and take some time to read docs here and in `/usage_examples' of this repo.  
+
+1. Get `apikey` by [registe](https://solve.shimul.me/register)
+2. Use our solving http endpoint:
    ```
    https://solve.shimul.me/api/solve/
    ``` 
-3. 
+3. access target hcaptcha challenge images and convert them to valid `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
 
-
+4. store them in variables/similar on the platform/lang youre using. follow below code block for the `JSON` you need to send to our endpoint
 ```
 {
   "images": {
