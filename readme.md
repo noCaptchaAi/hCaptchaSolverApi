@@ -145,11 +145,11 @@ Stuck or no stuck our discord community is helpful bunch of peoples.
 Admins are active and instant updates are posted there.
 
 ### got suggestions questions? please connect our ai support<p>
-email to <a href="mailto:cs@shimul.me">cs@shimul</a>
+email to <a href="mailto:ai@shimul.me">ai@shimul</a>
 
 
 ### Enterprise/company with custom requirements?
-email us <a href="mailto:biz@shimul.me">biz@shimul</a>
+email us <a href="mailto:ai@shimul.me">ai@shimul</a>
 
 
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
