@@ -104,6 +104,7 @@ function youCool(){
     "12": "if another base64 hash",
     "13": "if another base64 hash",
     "14": "if another base64 hash",
+    "15": "if another base64 hash",
     "16": "if another base64 hash",
     "17": "if another base64 hash",
     "18": "max 18 base64 hash"
@@ -138,11 +139,12 @@ function youCool(){
 
 9. you should now get your hcaptcha challenge solved by an automated Ai.
 
-10. your mom must be proud of you now. so are we :D 
+10. your did it, good job! 
 
 If youre really stuck even though it's kinda simple and you've left no google search alone, our discord community is helpful bunch of peoples. 
-if needed admins also help.
+if needed admins also help at [discord](https://discord.gg/E7FfzhZqzA)
 
-<h3>If you have any suggestions, ideas, issues, questions related to our paid plans, dedicated api endpoint,company usage please connect via out discord, telegram or email ai[at]shimul.me</h3>
-<h3>we offer dedicated endpoint and without limit(still hardware/network limit applies) enterprise, company usage plans as per custom requirements. Need massive amount of solves email to <p><a href="mailto:ai@shimul.me">ai@noCapthca</a></p> </h3>
+<h3>suggestions, ideas, issues, questions related to our paid plans, dedicated api endpoint,company usage please connect via out discord, telegram or email to <p><a href="mailto:cs@shimul.me">cs@shimul</a></p></h3>
+
+<h3>we offer dedicated endpoint and without limit(still hardware/network limit applies) enterprise, company usage plans as per custom requirements. Need massive amount of solves email to <p><a href="mailto:biz@shimul.me">biz@shimul</a></p> </h3>
 
