@@ -157,5 +157,5 @@ email us <a href="mailto:ai@shimul.me">ai@shimul</a>
  <a href="https://t.me/hCaptchaSolverApi" target="_blank">
 <img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 
-
-[Back to top](#hcaptcha-solver-api-beta)
+<br>
+### [Back to top](#hcaptcha-solver-api-beta)
