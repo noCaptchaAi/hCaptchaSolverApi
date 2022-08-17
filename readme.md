@@ -13,11 +13,19 @@ signup free beta => https://solve.shimul.me and ⭐ this repo. help => discord/t
 
 <img src="https://user-images.githubusercontent.com/4178343/180614799-2da31008-4cc4-4042-ad15-0dc64967c924.PNG" alt="hCaptchaSolverApi" title="hCaptchaSolverApi" height="50"/> 
 
+
+
 # hCaptcha Solver Api (beta) 
 
-Solve hcaptcha with HTTP API <br>
-Works with `puppeteer`, `Selenium`, `Playwright` etc out of box. <br>
-Automate workflow and throw captcha solving to our ai, Let's GO!!!
+<b>
+by noCaptcha AI \
+noCaptcha AI recognises and solves hcaptcha challenges when you use our http Api. \
+It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
+</b>
+
+* Solve hcaptcha with HTTP API <br>
+* Works with `puppeteer`, `Selenium`, `Playwright` etc out of box. <br>
+* Automate workflow and throw captcha solving to our ai, Let's GO!!!
 
 <span>⬇️ Selenium Demo</span>
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
