@@ -12,7 +12,7 @@
 
 **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon   \
 signed up for free? **please ⭐** and support us. \
-we're in beta and our plans are **super cheap** tho solves **better** than market \
+we're in beta and our plans are **super cheap** yet solves **better** than market \
 come to our [discord](https://discord.gg/E7FfzhZqzA) for **crazy deal 30000 solves / 10$**
 
 # hCaptcha Solver Api (beta)  
@@ -20,22 +20,18 @@ come to our [discord](https://discord.gg/E7FfzhZqzA) for **crazy deal 30000 solv
 <h3>noCaptcha AI recognises and solves hcaptcha challenges with our http Api. <br>
 It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
 </h3> 
+  
+## 🎤 unbeatable selling features
+⚡ Average solve within <= 0.5 to 10 secs + network & server ping factors \
+🌀 Puppeteer, selenium, playwright and all platforms supporting http request \
+🌐 Going to work with userscripts \
+💡 Great with cli tools too \
+📦️ browsers extensions (soon..)
 
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
-<span>⬇️ Selenium Demo Above</span> 
+<i>Selenium Demo Above</i>
 
 </div>
-
-
-## Features:
-⚡ Average solve within 6 sec + network & server load factors \
-🌀 Use with JS, Python, Puppeteer, selenium, playwright, Automa \
-🔧 write for browser automation \
-🌐 use with userscripts \
-💡 use with cli tools \
-
-## Upcoming
-📦️ browsers extensions (soon..)
 
 
 <!-- ## AI Currently solving
@@ -46,20 +42,50 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 | Accuracy: | 98%        | 95%    | 95%     | 95%         | 95%       | 95%      | 95% | 95% | 95%  | 95%   | 95%       | 95%  | 95%     | 95%   | 95%        | 95%        | 95%            |
 | Updated:  | 07/23/2022 | -->
 
+<br/>
 
+## Enough talk? where is my API?
 
-## Quick Start
+1. **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon
+2. apikey uid sent to email
 
-how to use this API? we expect users to have some programming knowledge as this is just not plug and play. This api needs some data from user end to solve the captcha's. some troubleshooting and patience is required. Please use our discord channel and take some time to read docs here and in `/usage_examples' of this repo.  
+## How to use API? or How to solve captchas?
 
-1. Get `apikey` by [registe](https://solve.shimul.me/register)
+**special notes**: 
+* we expect users to have some programming knowledge as this is just not plug and play. This is not a UI based sofware interface but data receiver and transmitter API for anyone to use in client side code, server side code, GUI desktop or web apps, cli tools. This api needs some data from user end to solve the captcha's. 
+* some troubleshooting and patience is required. 
+* please use our discord channel to connect and discuss 
+* take some time to read docs here and in `/usage_examples` of this repo. most of them are updated.
+* `doc` folders are not updated
+********
+0.0 not a step but this code runs in our mind if you ⭐ this repo <3
+
+```
+function youCool(){
+  document.queryselector("#stargazers").addeventLister("click", 
+   ()={
+    console.log("you're amazing")
+    }
+  )
+}
+```
+
+1. You need `uid`, `apikey` from email we sent
+
 2. Use our solving http endpoint:
    ```
    https://solve.shimul.me/api/solve/
    ``` 
-3. access target hcaptcha challenge images and convert them to valid `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
+3. access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
 
-4. store them in variables/similar on the platform/lang youre using. follow below code block for the `JSON` you need to send to our endpoint
+4. store the base64 hashes you converted in step 3 in variables on your platform/language youre using.
+5. follow below code block for the `JSON` you need to send to our endpoint. max 18 image hashes are accepted.
+   * `target` = the text you see on hcaptcha popup descriving the challege
+   * `method` = our internal param so keep as it is
+   * `site` = your target domain
+   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
+   * note: sitekey and site info collected to improve accuracy. we respect privacy.
+   
 ```
 {
   "images": {
@@ -89,3 +115,34 @@ how to use this API? we expect users to have some programming knowledge as this 
 }
 
 ```
+
+5. test your code with Insomnia, postman or a REST API client, look out for response from our api.
+
+6. api response our server sends are self explainatory, but if youre stuck google
+
+7. send request, if solved you see something like this. where the numbers represent the `images` index as you sent in order.
+
+```
+{
+    "processing_time": "1.27s",
+    "solution": [
+        1,
+        3,
+        4,
+        6
+    ],
+    "status": "solved"
+}
+```
+8. use above info to tell your code or UI based interface to select these images index from `solution` and send for submission.
+
+9. you should now get your hcaptcha challenge solved by an automated Ai.
+
+10. your mom must be proud of you now. so are we :D 
+
+If youre really stuck even though it's kinda simple and you've left no google search alone, our discord community is helpful bunch of peoples. 
+if needed admins also help.
+
+<h3>If you have any suggestions, ideas, issues, questions related to our paid plans, dedicated api endpoint,company usage please connect via out discord, telegram or email ai[at]shimul.me</h3>
+<h3>we offer dedicated endpoint and without limit(still hardware/network limit applies) enterprise, company usage plans as per custom requirements. Need massive amount of solves email to <p><a href="mailto:ai@shimul.me">ai@noCapthca</a></p> </h3>
+
