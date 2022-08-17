@@ -141,10 +141,19 @@ function youCool(){
 
 10. your did it, good job! 
 
-If youre really stuck even though it's kinda simple and you've left no google search alone, our discord community is helpful bunch of peoples. 
-if needed admins also help at [discord](https://discord.gg/E7FfzhZqzA)
+Stuck or no stuck our discord community is helpful bunch of peoples. 
+Admins are active and instant updates are posted there.
 
-<h3>suggestions, ideas, issues, questions related to our paid plans, dedicated api endpoint,company usage please connect via out discord, telegram or email to <p><a href="mailto:cs@shimul.me">cs@shimul</a></p></h3>
+### got suggestions questions? please connect our ai support<p>
+email to <a href="mailto:cs@shimul.me">cs@shimul</a>
 
-<h3>we offer dedicated endpoint and without limit(still hardware/network limit applies) enterprise, company usage plans as per custom requirements. Need massive amount of solves email to <p><a href="mailto:biz@shimul.me">biz@shimul</a></p> </h3>
+
+### Enterprise/company with custom requirements?
+email us <a href="mailto:biz@shimul.me">biz@shimul</a>
+
+
+<a href="https://discord.gg/E7FfzhZqzA" target="_blank">
+<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15"> Discord</a> 
+ <a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 
