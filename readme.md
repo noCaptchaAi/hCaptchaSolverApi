@@ -76,10 +76,12 @@ function youCool(){
    ```
    https://solve.shimul.me/api/solve/
    ``` 
-3. access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
+3. Access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
 
-4. store the base64 hashes you converted in step 3 in variables on your platform/language youre using.
-5. follow below code block for the `JSON` you need to send to our endpoint. max 18 image hashes are accepted.
+4. Store the base64 hashes you converted in step 3 in variables on your platform/language you're using.
+
+5. Follow below code block for the `JSON` you need to send to our endpoint, max 18 image hashes are accepted.
+
    * `target` = the text you see on hcaptcha popup describing the challenge
    * `method` = our internal param so keep as it is
    * `site` = your target domain
@@ -117,7 +119,7 @@ function youCool(){
 
 ```
 
-5. test your code with Insomnia, postman or a REST API client, look out for response from our api.
+5. Test with Insomnia, postman or a REST API client to check if youre sending valid JSON like above, look at response from our api, it'll tell you mostly if there's problem with format or such.
 
 6. api response our server sends are self-explanatory, but if you're stuck google
 
