@@ -63,7 +63,7 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 ```
 function youCool(){
   document.queryselector("#stargazers").addeventLister("click", 
-   ()={
+   () => {
     console.log("you're amazing")
     }
   )
