@@ -13,11 +13,11 @@
 **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon   \
 signed up for free? **please ⭐** and support us. \
 we're in beta and our plans are **super cheap** yet solves **better** than market \
-come to our [discord](https://discord.gg/E7FfzhZqzA) for **crazy deal 30000 solves / 10$**
+ **crazy deal 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
 
 # hCaptcha Solver Api (beta)  
 
-<h3>noCaptcha AI recognises and solves hcaptcha challenges with our http Api. <br>
+<h3>noCaptcha AI recognizes and solves hcaptcha challenges with our HTTP Api. <br>
 It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
 </h3> 
   
@@ -52,10 +52,10 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 ## How to use API? or How to solve captchas?
 
 **special notes**: 
-* we expect users to have some programming knowledge as this is just not plug and play. This is not a UI based sofware interface but data receiver and transmitter API for anyone to use in client side code, server side code, GUI desktop or web apps, cli tools. This api needs some data from user end to solve the captcha's. 
-* some troubleshooting and patience is required. 
-* please use our discord channel to connect and discuss 
-* take some time to read docs here and in `/usage_examples` of this repo. most of them are updated.
+* We expect users to have some programming knowledge, as this is just not plug and play. This is not a UI based software interface but data receiver and transmitter API for anyone to use in client side code, server side code, GUI desktop or web apps, CLI tools. This API needs some data from user end to solve the captcha's. 
+* Some troubleshooting and patience is required.
+* Please use our discord channel to connect and discuss
+* Take some time to read the docs here and in /usage_examples of this repo. Most of them are updated.
 * `doc` folders are not updated
 ********
 0.0 not a step but this code runs in our mind if you ⭐ this repo <3
@@ -80,7 +80,7 @@ function youCool(){
 
 4. store the base64 hashes you converted in step 3 in variables on your platform/language youre using.
 5. follow below code block for the `JSON` you need to send to our endpoint. max 18 image hashes are accepted.
-   * `target` = the text you see on hcaptcha popup descriving the challege
+   * `target` = the text you see on hcaptcha popup describing the challenge
    * `method` = our internal param so keep as it is
    * `site` = your target domain
    * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
@@ -119,9 +119,10 @@ function youCool(){
 
 5. test your code with Insomnia, postman or a REST API client, look out for response from our api.
 
-6. api response our server sends are self explainatory, but if youre stuck google
+6. api response our server sends are self-explanatory, but if you're stuck google
 
-7. send request, if solved you see something like this. where the numbers represent the `images` index as you sent in order.
+7. send request, if solved, you see something like this. Where the numbers represent the images index as you sent in order.
+
 
 ```
 {
@@ -141,10 +142,9 @@ function youCool(){
 
 10. your did it, good job! 
 
-Stuck or no stuck our discord community is helpful bunch of peoples. 
-Admins are active and instant updates are posted there.
+Stuck or no stuck, join our discord community, admins are active and instant updates are posted there.
 
-### got suggestions questions? please connect our ai support<p>
+### Got suggestions, questions?
 email to <a href="mailto:ai@shimul.me">ai@shimul</a>
 
 
