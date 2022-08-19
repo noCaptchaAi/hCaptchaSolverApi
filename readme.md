@@ -13,7 +13,7 @@
 **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon   \
 signed up for free? **please ⭐** and support us. \
 we're in beta and our plans are **super cheap** yet solves **better** than market \
- **crazy deal 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
+ **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
 
 # hCaptcha Solver Api (beta)  
 
