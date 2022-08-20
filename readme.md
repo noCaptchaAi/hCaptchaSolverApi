@@ -21,7 +21,7 @@ we're in beta and our plans are **super cheap** yet solves **better** than marke
 It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
 </h3> 
   
-## 🎤 unbeatable selling features
+## features
 ⚡ Average solve within <= 0.5 to 10 secs + network & server ping factors \
 🌀 Puppeteer, selenium, playwright and all platforms supporting http request \
 🌐 Going to work with userscripts \
