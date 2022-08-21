@@ -84,16 +84,16 @@ const solver = {
                 if(res_.hasOwnProperty("solution")) break;
                 count++;
                 if(count >= 5) return "Failed to Solve the Captcha."
-//                 Polling time 3s for paid user and 5s for free user
+                // Polling time 3s for paid user and 5s for free user
                 await sleep(5000);
             }
             for (var correct of res_.solution) {
                 await captchaFrame.click("body > div.challenge-container > div > div > div.task-grid > div:nth-child(" + (parseInt(correct) + 1) + ")");
-                await sleep(getRandomInt(100, 200));
+                await sleep(getRandomInt(300, 500));
             }
             await captchaFrame.click(".button-submit");
             count = 0;
-            let g_recaptcha_response = ""
+            let g_recaptcha_response = "";
             while(true) {
                 g_recaptcha_response = await page.evaluate(() => { return document.querySelector("[id^='g-recaptcha-response-']").value; });
                 if(g_recaptcha_response != ""){ break; }
@@ -103,7 +103,7 @@ const solver = {
             }
             return "Solved."
         } else {
-            if(res.status == "skip") { await captchaFrame.click(".button-submit"); return "Skipped the Captcha."; }
+            if(res.status == "skip" || res.status == "pro only") { await captchaFrame.click(".button-submit"); return "Skipped the Captcha."; }
             return "Failed to Solve the Captcha.";
         }
     }
