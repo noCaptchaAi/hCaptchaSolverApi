@@ -5,7 +5,7 @@
 # If you have any issue please create a github issue or you can ask help on Discord https://discord.gg/E7FfzhZqzA
 # 
 ####
-Fill uid and apikey like this.
+########## Fill uid and apikey like this. ############################
 # uid="62c6bf7eb1e76d24e366" #Replace with your own UID
 # apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" #Replace with your own apikey
 
