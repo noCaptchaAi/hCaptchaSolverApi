@@ -53,10 +53,8 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 
 **special notes**: 
 * We expect users to have some programming knowledge, as this is just not plug and play. This is not a UI based software interface but data receiver and transmitter API for anyone to use in client side code, server side code, GUI desktop or web apps, CLI tools. This API needs some data from user end to solve the captcha's. 
-* Some troubleshooting and patience is required.
-* Please use our discord channel to connect and discuss
-* Take some time to read the docs here and in /usage_examples of this repo. Most of them are updated.
-* `doc` folders are not updated
+* Some troubleshooting and patience is required. Take some time to read the docs here and in /usage_examples of this repo. Most of them are updated.
+* `doc` folders are not updated, head over to our discord channel to connect and discuss issues
 ********
 0.0 not a step but this code runs in our mind if you ⭐ this repo <3
 
@@ -65,9 +63,7 @@ function youCool(){
   document.queryselector("#stargazers").addeventLister("click", 
    () => {
     console.log("you're amazing")
-    }
-  )
-}
+})}
 ```
 
 1. You need `uid`, `apikey` from email we sent
