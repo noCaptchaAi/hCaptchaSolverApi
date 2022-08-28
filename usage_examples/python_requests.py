@@ -3,7 +3,6 @@
 
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
-# Replace <UID> and <KEY> to your UID and KEY
 
 import datetime, requests, json, pyppeteer, base64, asyncio, random, string
 class Solver:
