@@ -10,7 +10,7 @@
 <img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 </p>
 
-**[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon   \
+**[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/month   \
 signed up for free? **please ⭐** and support us. \
 we're in beta and our plans are **super cheap** yet solves **better** than market \
  **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
@@ -33,21 +33,14 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 
 </div>
 
-
-<!-- ## AI Currently solving
-
-| Name:-    | truck      | bridge | bedroom | domesticCat | aeroplane | seaplane | car | bus | lion | horse | motorbike | boat | bicycle | train | LivingRoom | lovingRoom | conferenceRoom |
-| --------- | ---------- | ------ | ------- | ----------- | --------- | -------- | --- | --- | ---- | ----- | --------- | ---- | ------- | ----- | ---------- | ---------- | -------------- |
-| Yes?      | ✔️         | ✔️     | ✔️      | ✔️          | ✔️        | ✔️       | ✔️  | ✔️  | ✔️   | ✔️    | ✔️        | ✔️   | ✔️      | ✔️    | ✔️         | ✔️         | ✔️             |
-| Accuracy: | 98%        | 95%    | 95%     | 95%         | 95%       | 95%      | 95% | 95% | 95%  | 95%   | 95%       | 95%  | 95%     | 95%   | 95%        | 95%        | 95%            |
-| Updated:  | 07/23/2022 | -->
-
-<br/>
-
 ## Enough talk? where is my API?
 
-1. **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/mon
+1. **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/month
 2. apikey uid sent to email
+
+## Quickstart
+[Usage examples](https://github.com/shimuldn/hCaptchaSolverApi/tree/main/usage_examples) \
+check our Puppeteer, selenium, playwright, node, python scripts and test with our apikey
 
 ## How to use API? or How to solve captchas?
 
