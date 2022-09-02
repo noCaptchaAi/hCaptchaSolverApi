@@ -136,7 +136,7 @@ function youCool(){
 Stuck or no stuck, join our discord community, admins are active and instant updates are posted there.
 
 ### Got suggestions, questions?
-email to <a href="mailto:ai@nocaptchaai.com">ai@shimul</a>
+email to <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
 
 ### Enterprise/company with custom requirements?
