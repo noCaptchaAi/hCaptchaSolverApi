@@ -10,7 +10,7 @@
 <img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 </p>
 
-**[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/month   \
+**[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/month   \
 signed up for free? **please ⭐** and support us. \
 we're in beta and our plans are **super cheap** yet solves **better** than market \
  **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
@@ -35,7 +35,7 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 
 ## Enough talk? where is my API?
 
-1. **[Register for Free trial credits and API key](https://solve.shimul.me/register)** ~ 1000/month
+1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/month
 2. apikey uid sent to email
 
 ## Quickstart
@@ -63,7 +63,7 @@ function youCool(){
 
 2. Use our solving http endpoint:
    ```
-   https://solve.shimul.me/api/solve/
+   https://free.nocaptchaai.com/api/solve/
    ``` 
 3. Access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
 
@@ -136,11 +136,11 @@ function youCool(){
 Stuck or no stuck, join our discord community, admins are active and instant updates are posted there.
 
 ### Got suggestions, questions?
-email to <a href="mailto:ai@shimul.me">ai@shimul</a>
+email to <a href="mailto:ai@nocaptchaai.com">ai@shimul</a>
 
 
 ### Enterprise/company with custom requirements?
-email us <a href="mailto:ai@shimul.me">ai@shimul</a>
+email us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
 
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
