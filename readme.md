@@ -13,7 +13,7 @@
 **[🔥 register for Free trial credits and API key & ⭐ us 🔥](https://nocaptchaai.com/register)**  \
  **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
 
-# hCaptcha Solver Api (beta)  
+## noCapcthaAi hCaptcha Solver
 
 <h3>noCaptcha AI recognizes and solves hcaptcha challenges with our HTTP Api. <br>
 It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
@@ -43,7 +43,7 @@ check our Puppeteer, selenium, playwright, node, python scripts and test with ou
 
 ## How to use API? or How to solve captchas?
 
-Our API solves challenges with http requests. So when you send `post` request with JSON formatted like below our api receves your task, then a `get` request gives you solved response which you can implement on your system. Please follow steps below a the `JOSN` format you need to send:
+Our API solves challenges with http requests. So when you send `post` request with JSON formatted like below our api receves your task, then a `get` request gives you solved response which you can implement on your system. Below `JOSN` format you need to send:
 
 ```
 {
