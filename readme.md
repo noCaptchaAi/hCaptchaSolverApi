@@ -10,9 +10,7 @@
 <img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 </p>
 
-**[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/month   \
-signed up for free? **please ⭐** and support us. \
-we're in beta and our plans are **super cheap** yet solves **better** than market \
+**[🔥 register for Free trial credits and API key & ⭐ us 🔥](https://nocaptchaai.com/register)**  \
  **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
 
 # hCaptcha Solver Api (beta)  
@@ -20,18 +18,19 @@ we're in beta and our plans are **super cheap** yet solves **better** than marke
 <h3>noCaptcha AI recognizes and solves hcaptcha challenges with our HTTP Api. <br>
 It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
 </h3> 
+
+![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
+<i>Selenium</i>
   
-## features
+</div>
+
+## Features
 ⚡ Average solve within: 0.4-5s \
 🌀 Puppeteer, selenium, playwright and all platforms supporting http request \
 🌐 Going to work with userscripts \
 💡 Great with cli tools too \
 📦️ browsers extensions (soon..)
 
-![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
-<i>Selenium Demo Above</i>
-
-</div>
 
 ## Enough talk? where is my API?
 
@@ -44,39 +43,8 @@ check our Puppeteer, selenium, playwright, node, python scripts and test with ou
 
 ## How to use API? or How to solve captchas?
 
-**special notes**: 
-* We expect users to have some programming knowledge, as this is just not plug and play. This is not a UI based software interface but data receiver and transmitter API for anyone to use in client side code, server side code, GUI desktop or web apps, CLI tools. This API needs some data from user end to solve the captcha's. 
-* Some troubleshooting and patience is required. Take some time to read the docs here and in /usage_examples of this repo. Most of them are updated.
-* `doc` folders are not updated, head over to our discord channel to connect and discuss issues
-********
-0.0 not a step but this code runs in our mind if you ⭐ this repo <3
+Our API solves challenges with http requests. So when you send `post` request with JSON formatted like below our api receves your task, then a `get` request gives you solved response which you can implement on your system. Please follow steps below a the `JOSN` format you need to send:
 
-```
-function youCool(){
-  document.queryselector("#stargazers").addeventLister("click", 
-   () => {
-    console.log("you're amazing")
-})}
-```
-
-1. You need `uid`, `apikey` from email we sent
-
-2. Use our solving http endpoint:
-   ```
-   https://free.nocaptchaai.com/api/solve/
-   ``` 
-3. Access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
-
-4. Store the base64 hashes you converted in step 3 in variables on your platform/language you're using.
-
-5. Follow below code block for the `JSON` you need to send to our endpoint, max 18 image hashes are accepted.
-
-   * `target` = the text you see on hcaptcha popup describing the challenge
-   * `method` = our internal param so keep as it is
-   * `site` = your target domain
-   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
-   * note: sitekey and site info collected to improve accuracy. we respect privacy.
-   
 ```
 {
   "images": {
@@ -107,6 +75,24 @@ function youCool(){
 }
 
 ```
+
+1. You need `uid`, `apikey` from email we sent
+
+2. Use our solving http endpoint:
+   ```
+   https://free.nocaptchaai.com/api/solve/
+   ``` 
+3. Access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
+
+4. Store the base64 hashes you converted in step 3 in variables on your platform/language you're using.
+
+5. Follow below code block for the `JSON` you need to send to our endpoint, max 18 image hashes are accepted.
+
+   * `target` = the text you see on hcaptcha popup describing the challenge
+   * `method` = our internal param so keep as it is
+   * `site` = your target domain
+   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
+   * note: sitekey and site info collected to improve accuracy. we respect privacy.
 
 5. Test with Insomnia, postman or a REST API client to check if youre sending valid JSON like above, look at response from our api, it'll tell you mostly if there's problem with format or such.
 
