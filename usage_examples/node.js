@@ -1,24 +1,38 @@
 import axios = require("axios");
 
-var JSON_Data = {
+// get free apikey, uid here https://nocaptchaai.com
+const uid = ''
+const apikey = '' 
+
+let Base64_json = {
   images: {
-    0: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    1: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    2: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    3: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    4: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    5: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    6: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    7: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
-    8: "https://github.com/shimuldn/hCaptchaSolverApi/raw/main/demo_data/img/train/0.png",
+   "0": "base64 hash from image",
+   "1": "base64 hash from image",
+   "2": "base64 hash from image",
+   "3": "base64 hash from image",
+   "4": "base64 hash from image",
+   "5": "base64 hash from image",
+   "6": "base64 hash from image",
+   "7": "base64 hash from image",
+   "8": "base64 hash from image",
+   "9": "base64 hash from image",
+   "10": "base64 hash from image",
+   "11": "base64 hash from image",
+   "12": "base64 hash from image",
+   "13": "base64 hash from image",
+   "14": "base64 hash from image",
+   "15": "base64 hash from image",
+   "16": "base64 hash from image",
+   "17": "base64 hash from image",
+   "18": "base64 hash from image",
   },
-  target: "train",
-  data_type: "url", //base64 coming in future
-  site_key: "243242",
-  site: "https://youre-sending-request-from.com",
+  target: "Please click each image containing an airplane",
+  method: "hcaptcha_base64",
+  sitekey: "sitekey",
+  site: "site"
 };
 
-var res = await axios({
+const res = await axios({
   method: "post",
   url: "https://solve.shimul.me/api/solve",
   headers: {
@@ -26,5 +40,5 @@ var res = await axios({
     uid: uid,
     apikey: apikey,
   },
-  data: JSON_Data,
+  data: Base64_json,
 });
