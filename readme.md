@@ -24,18 +24,19 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
   
 </div>
 
-## Api Features
-⚡ Average solve within: 0.4-5s \
-🌀 Puppeteer, selenium, playwright and all platforms supporting http request \
-🌐 Going to work with userscripts \
-    
-💡 Great with cli tools too \
-📦️ browsers extensions (soon..)
-
+## Features
+```
+⚡ 0.04s ~ 1s solves
+🌐 Support all programming languages with HTTP api
+🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more
+🌐 Works with [UserScripts](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
+💡 Works with cli tools too 
+📦️ Browsers extensions (work in progress)
+```
 
 ## Register for Free API
 
-1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/mon
+1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/mon \
    => Unlimited plans starts from 99$ **
 3. apikey and uid sent to email
 
@@ -53,7 +54,72 @@ Example Scripts:
 * NodeJs [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/node.js)
 * JavaScript [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/javascript.js)
 
+## javaScript Example with `axios` and 'fetch`
 
+```
+// if you wanna use axios, get from CDN from unpkg or jsdeliver, eg. unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
+// you need uid and apikey, get free here https://nocaptchaai.com
+
+const uid = ''
+const apikey = '' 
+
+var base64_json = {
+   images: {
+   "0": "base64 hash from image",
+   "1": "base64 hash from image",
+   "2": "base64 hash from image",
+   "3": "base64 hash from image",
+   "4": "base64 hash from image",
+   "5": "base64 hash from image",
+   "6": "base64 hash from image",
+   "7": "base64 hash from image",
+   "8": "base64 hash from image",
+   "9": "base64 hash from image",
+   "10": "base64 hash from image",
+   "11": "base64 hash from image",
+   "12": "base64 hash from image",
+   "13": "base64 hash from image",
+   "14": "base64 hash from image",
+   "15": "base64 hash from image",
+   "16": "base64 hash from image",
+   "17": "base64 hash from image",
+   "18": "base64 hash from image",
+  },
+  target: "Please click each image containing an airplane",
+  method: "hcaptcha_base64",
+  sitekey: "sitekey",
+  site: "site"
+};
+
+//  axios
+var res = await axios({
+  method: "post",
+  url: "https://solve.shimul.me/api/solve",
+  headers: {
+    "Content-type": "application/json",
+    uid: uid,
+    apikey: apikey,
+  },
+  data: base64_json,
+});
+
+// fetch api
+async function solve(images, target) {
+  const request = await fetch("https://solve.shimul.me/solve", {
+    method: "post",
+    headers: {
+      "Content-type": "application/json",
+      uid: uid,
+      apikey: apikey,
+    },
+    body: JSON.stringify(base64_json),
+  }).then((response) => {
+    return response.json();
+  }).then((data) => {
+    console.log(data);
+  });
+}
+```
 
 ## How to use API? How a solve works?
 
