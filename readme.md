@@ -64,6 +64,7 @@ Api point
 
 Send JSON format like below: Convert images tpo Base64 hash
 
+```
 {
   "images": {
     "0": "1st base64 image hash",
