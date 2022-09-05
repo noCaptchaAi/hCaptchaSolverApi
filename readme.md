@@ -57,7 +57,7 @@ Example Scripts:
 
 ## How to use API? How a solve works?
 
-1) send JSON `post` request to Api point
+## 1) Send JSON `post` request to Api point
 
 ```
  https://free.nocaptchaai.com/api/solve
@@ -92,9 +92,11 @@ Convert images to Base64, JSON like below or [this.JSON](https://raw.githubuserc
   "sitekey": "sitekey",
   "site": "site"
 }
-
-2) GET
 ```
+
+## 2) GET Solved
+
+
 a) response:
 ```
 {
