@@ -53,7 +53,7 @@ Example Scripts:
 
 ## Build your own scripts
 
-### javaScript Example with `axios` and 'fetch`
+### javaScript Example with `axios` and `fetch`
 
 ```
 // if you wanna use axios, get from CDN from unpkg or jsdeliver, eg. unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
