@@ -15,9 +15,8 @@
 
 ## noCapcthaAi hCaptcha Solver
 
-<h3>noCaptcha AI recognizes and solves hcaptcha challenges with our HTTP Api. <br>
-It's so fast that you will tell your mom about it, lot faster than 2captcha and others.
-</h3> 
+<p>noCaptcha AI's a cutting edge neuralNet image recognition api tool to solve hCaptcha fast (~ 0.04s/solve) and scaleable for any kind of consumption load. We're already handling millions of request per month. Try us now! and grow your business.
+</p> 
 
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
 <i>Selenium</i>
