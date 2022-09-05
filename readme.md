@@ -24,23 +24,24 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
   
 </div>
 
-## Features
+## Api Features
 ⚡ Average solve within: 0.4-5s \
 🌀 Puppeteer, selenium, playwright and all platforms supporting http request \
 🌐 Going to work with userscripts \
+    
 💡 Great with cli tools too \
 📦️ browsers extensions (soon..)
 
 
-## Enough talk? where is my API?
+## Register for Free API
 
-1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/month
-2. apikey uid sent to email
+1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/mon
+   => Unlimited plans starts from 99$ **
+3. apikey and uid sent to email
 
-## Quickstart
+## Quickstart Solving
 
-Example Send JSON `Post` Request:
-Base64 images ~ body.JSON [here](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/base64-body-format.json)
+### Fastest way to try our api with hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
 
 Example Scripts:
 * Selenium [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example-selenium.py)
@@ -54,15 +55,14 @@ Example Scripts:
 
 
 
-## How to use API? or How to solve captchas?
+## How to use API? How a solve works?
 
-Api point
+1) send JSON `post` request to Api point
 
 ```
  https://free.nocaptchaai.com/api/solve
 ```
-
-Send JSON format like below: Convert images tpo Base64 hash
+Convert images to Base64, JSON like below or [this.JSON](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/base64-body-format.json)
 
 ```
 {
@@ -93,23 +93,10 @@ Send JSON format like below: Convert images tpo Base64 hash
   "site": "site"
 }
 
+2) GET
 ```
-
-Glossary:
-
-   * `target` = the text you see on hcaptcha popup describing the challenge
-   * `method` = our internal param so keep as it is
-   * `site` = your target domain
-   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
-   * note: sitekey and site info collected to improve accuracy. we respect privacy.
-
-Solve request status: send 'get' request
-api endpoint : 
-
+a) response:
 ```
- https://free.nocaptchaai.com/api/solve
-```
-
 {
     "createdat": 1662353086,
     "id": "h-q7FBc9fXJ0V69ox4",
@@ -117,9 +104,10 @@ api endpoint :
     "target": "adult cat",
     "url": "https://pro.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4"
 }
+```
+b) Instant solved status:
 
-Instantolved status:
-
+```
 {
     "processing_time": "1.27s",
     "solution": [
@@ -131,6 +119,16 @@ Instantolved status:
     "status": "solved"
 }
 ```
+
+Glossary:
+
+   * `target` = the text you see on hcaptcha popup describing the challenge
+   * `method` = our internal param so keep as it is
+   * `site` = your target domain
+   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
+   * note: sitekey and site info collected to improve accuracy. we respect privacy.
+   
+
 
 ### Got suggestions, questions?
 email to <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
@@ -147,5 +145,6 @@ Enterprise/company mail us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.co
 
 <br>
   
-  
+
+
 ### [Back to top](#hcaptcha-solver-api-beta)
