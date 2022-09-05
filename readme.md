@@ -169,14 +169,17 @@ a) response:
     "id": "h-q7FBc9fXJ0V69ox4",
     "status": "new",
     "target": "adult cat",
-    "url": "https://pro.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4"
+    "url": "https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4"
 }
 ```
-b) Instant solved status:
+```
+Send a GET request to url your received in case of not instant solved https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4
+```
+b) Instant solved status (Paid user only!):
 
 ```
 {
-    "processing_time": "1.27s",
+    "processing_time": "0.05s",
     "solution": [
         1,
         3,
