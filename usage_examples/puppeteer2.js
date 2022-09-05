@@ -7,7 +7,7 @@ const axios = require('axios');
         uid: '',
         apikey: '',
         siteKey: '',
-        baseUrl: 'https://solve.shimul.me/api/solve',
+        baseUrl: 'https://free.nocaptchaai.com/api/solve',
         siteUrl: ''
     }
         
