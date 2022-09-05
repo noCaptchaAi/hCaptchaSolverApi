@@ -25,24 +25,22 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 </div>
 
 ## Features
-```
-⚡ 0.04s ~ 1s solves
-🌐 Support all programming languages with HTTP api
-🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more
-🌐 Works with [UserScripts](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
-💡 Works with cli tools too 
+
+⚡ 0.04s ~ 1s solves \
+🌐 Support all programming languages with HTTP api \
+🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more \
+💡 Works with cli tools too \
 📦️ Browsers extensions (work in progress)
-```
 
-## Register for Free API
+### Userscripts
+🌐 [TamperMonkey/GreaseMonkey/ViolentMonkey UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js) 
 
-1. **[Register for Free trial credits and API key](https://nocaptchaai.com/register)** ~ 1000/mon \
-   => Unlimited plans starts from 99$ **
-3. apikey and uid sent to email
+## QuickStart Solving hCaptcha's
 
-## Quickstart Solving
-
-### Fastest way to try our api with hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
+1. Register [Free](https://nocaptchaai.com/register) ~ 1000 solves/month
+   * 30,000 solve/ 10$ and Unlimited plans from 99$ month **
+2. Install hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
+3. Copy `apikey` and `uid` sent to your email. Youre done. Start Working.
 
 Example Scripts:
 * Selenium [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example-selenium.py)
@@ -54,7 +52,9 @@ Example Scripts:
 * NodeJs [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/node.js)
 * JavaScript [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/javascript.js)
 
-## javaScript Example with `axios` and 'fetch`
+## Build your own scripts
+
+### javaScript Example with `axios` and 'fetch`
 
 ```
 // if you wanna use axios, get from CDN from unpkg or jsdeliver, eg. unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
