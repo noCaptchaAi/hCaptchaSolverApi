@@ -1,4 +1,4 @@
-//  get axios from CDN eg. unpkg or jsdeliver
+// get axios from CDN eg. unpkg or jsdeliver
 // unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
 // you need uid and apikey, get free trial here https://nocaptchaai.com
 const uid = ''
