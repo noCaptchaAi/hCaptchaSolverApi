@@ -14,7 +14,7 @@ const apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" // put your apikey inside ""
 
 var args_command = process.argv.slice(3);
 const puppeteer = require('puppeteer');
-const base_url = 'https://solve.shimul.me';
+const base_url =  "https://free.nocaptchaai.com/api/solve";
 
 
 (async () => {
