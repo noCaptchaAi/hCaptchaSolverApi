@@ -14,7 +14,7 @@
 uid="" #Replace with your own UID
 apikey="" #Replace with your own apikey
 
-api_url = 'https://solve.shimul.me/api/solve'
+api_url = 'https://free.nocaptchaai.com/api/solve'
 
 from genericpath import exists
 import time
