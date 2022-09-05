@@ -12,7 +12,7 @@
 uid=""
 apikey=""
 
-api_url = 'https://solve.shimul.me/api/solve'
+api_url = 'https://free.nocaptchaai.com/api/solve'
 
 from genericpath import exists
 import time
