@@ -34,7 +34,7 @@ let Base64_json = {
 
 const res = await axios({
   method: "post",
-  url: "https://solve.shimul.me/api/solve",
+  url: "https://free.nocaptchaai.com/api/solve",
   headers: {
     "Content-type": "application/json",
     uid: uid,
