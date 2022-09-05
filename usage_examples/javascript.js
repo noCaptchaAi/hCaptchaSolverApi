@@ -36,7 +36,7 @@ var base64_json = {
 //  axios
 var res = await axios({
   method: "post",
-  url: "https://solve.shimul.me/api/solve",
+  url:  "https://free.nocaptchaai.com/api/solve",
   headers: {
     "Content-type": "application/json",
     uid: uid,
@@ -47,7 +47,7 @@ var res = await axios({
 
 // fetch api
 async function solve(images, target) {
-  const request = await fetch("https://solve.shimul.me/solve", {
+  const request = await fetch("https://free.nocaptchaai.com/api/solve", {
     method: "post",
     headers: {
       "Content-type": "application/json",
