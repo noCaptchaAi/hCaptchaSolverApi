@@ -1,21 +1,36 @@
-//  in order to use axios you have to load tit from CDN eg. unpkg or jsdeliver
-// you can also use fetch api
-var JSON_Data = {
-  images: {
-    0: "https://i.imgur.com/YNtQAlR.jpeg",
-    1: "https://i.imgur.com/3T7eASH.jpeg",
-    2: "https://i.imgur.com/s4pxelS.jpeg",
-    3: "https://i.imgur.com/1IgTz4Y.jpeg",
-    4: "https://i.imgur.com/rgh5xFV.jpeg",
-    5: "https://i.imgur.com/uZcftQe.jpeg",
-    6: "https://i.imgur.com/MqmsMwz.jpeg",
-    7: "https://i.imgur.com/7lwxxXy.jpeg",
-    8: "https://i.imgur.com/uIX5UVP.jpeg",
+//  get axios from CDN eg. unpkg or jsdeliver
+// unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
+// you need uid and apikey, get free trial here https://nocaptchaai.com
+const uid = ''
+const apikey = '' 
+
+
+var base64_json = {
+   images: {
+   "0": "base64 hash from image",
+   "1": "base64 hash from image",
+   "2": "base64 hash from image",
+   "3": "base64 hash from image",
+   "4": "base64 hash from image",
+   "5": "base64 hash from image",
+   "6": "base64 hash from image",
+   "7": "base64 hash from image",
+   "8": "base64 hash from image",
+   "9": "base64 hash from image",
+   "10": "base64 hash from image",
+   "11": "base64 hash from image",
+   "12": "base64 hash from image",
+   "13": "base64 hash from image",
+   "14": "base64 hash from image",
+   "15": "base64 hash from image",
+   "16": "base64 hash from image",
+   "17": "base64 hash from image",
+   "18": "base64 hash from image",
   },
-  target: "train",
-  data_type: "url", //base64 coming in future
-  site_key: "243242",
-  site: "https://youre-sending-request-from.com",
+  target: "Please click each image containing an airplane",
+  method: "hcaptcha_base64",
+  sitekey: "sitekey",
+  site: "site"
 };
 
 //  axios
@@ -27,7 +42,7 @@ var res = await axios({
     uid: uid,
     apikey: apikey,
   },
-  data: JSON_Data,
+  data: base64_json,
 });
 
 // fetch api
@@ -39,7 +54,7 @@ async function solve(images, target) {
       uid: uid,
       apikey: apikey,
     },
-    body: JSON.stringify(JSON_Data),
+    body: JSON.stringify(base64_json),
   }).then((response) => {
     return response.json();
   }).then((data) => {
