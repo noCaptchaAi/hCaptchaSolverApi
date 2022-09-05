@@ -215,4 +215,4 @@ Enterprise/company mail us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.co
   
 
 
-### [Back to top](#hcaptcha-solver-api-beta)
+### [Back to top](#readme)
