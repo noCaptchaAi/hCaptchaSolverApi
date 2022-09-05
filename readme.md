@@ -38,14 +38,32 @@ It's so fast that you will tell your mom about it, lot faster than 2captcha and 
 2. apikey uid sent to email
 
 ## Quickstart
-[Usage examples](https://github.com/shimuldn/hCaptchaSolverApi/tree/main/usage_examples) \
-check our Puppeteer, selenium, playwright, node, python scripts and test with our apikey
+
+Example Send JSON `Post` Request:
+Base64 images ~ body.JSON [here](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/base64-body-format.json)
+
+Example Scripts:
+* Selenium [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example-selenium.py)
+* puppeteer [here]( https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/puppeteer.js)
+* puppeteer2  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/puppeteer2.js)
+* python  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example2.py)
+* python_requests [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/python_requests.py)
+* playwright  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/playwright.js)
+* NodeJs [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/node.js)
+* JavaScript [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/javascript.js)
+
+
 
 ## How to use API? or How to solve captchas?
 
-Our API solves challenges with http requests. So when you send `post` request with JSON formatted like below our api receves your task, then a `get` request gives you solved response which you can implement on your system. Below `JOSN` format you need to send:
+Api point
 
 ```
+ https://free.nocaptchaai.com/api/solve
+```
+
+Send JSON format like below: Convert images tpo Base64 hash
+
 {
   "images": {
     "0": "1st base64 image hash",
@@ -76,17 +94,7 @@ Our API solves challenges with http requests. So when you send `post` request wi
 
 ```
 
-1. You need `uid`, `apikey` from email we sent
-
-2. Use our solving http endpoint:
-   ```
-   https://free.nocaptchaai.com/api/solve/
-   ``` 
-3. Access target hcaptcha challenge images and convert them to valid image hash of `base64` ([how?](https://duckduckgo.com/?hps=1&q=converting+image+to+base64+stackoverflow&ia=web))
-
-4. Store the base64 hashes you converted in step 3 in variables on your platform/language you're using.
-
-5. Follow below code block for the `JSON` you need to send to our endpoint, max 18 image hashes are accepted.
+Glossary:
 
    * `target` = the text you see on hcaptcha popup describing the challenge
    * `method` = our internal param so keep as it is
@@ -94,14 +102,23 @@ Our API solves challenges with http requests. So when you send `post` request wi
    * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
    * note: sitekey and site info collected to improve accuracy. we respect privacy.
 
-5. Test with Insomnia, postman or a REST API client to check if youre sending valid JSON like above, look at response from our api, it'll tell you mostly if there's problem with format or such.
-
-6. api response our server sends are self-explanatory, but if you're stuck google
-
-7. send request, if solved, you see something like this. Where the numbers represent the images index as you sent in order.
-
+Solve request status: send 'get' request
+api endpoint : 
 
 ```
+ https://free.nocaptchaai.com/api/solve
+```
+
+{
+    "createdat": 1662353086,
+    "id": "h-q7FBc9fXJ0V69ox4",
+    "status": "new",
+    "target": "adult cat",
+    "url": "https://pro.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4"
+}
+
+Instantolved status:
+
 {
     "processing_time": "1.27s",
     "solution": [
@@ -113,20 +130,13 @@ Our API solves challenges with http requests. So when you send `post` request wi
     "status": "solved"
 }
 ```
-8. use above info to tell your code or UI based interface to select these images index from `solution` and send for submission.
-
-9. you should now get your hcaptcha challenge solved by an automated Ai.
-
-10. your did it, good job! 
-
-Stuck or no stuck, join our discord community, admins are active and instant updates are posted there.
 
 ### Got suggestions, questions?
 email to <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
 
 ### Enterprise/company with custom requirements?
-email us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
+Enterprise/company mail us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
 
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
