@@ -1,18 +1,27 @@
-<div align="center">
-
+<div align="center" padding="0" margin="0">
+<p>
+ 
 ![GitHub Repo stars](https://img.shields.io/github/stars/shimuldn/hCaptchaSolverApi?style=flat-square)
 <img alt="Discord" src="https://img.shields.io/discord/994856206525018112">
+  
 
-<p>
-  <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15"> Discord</a> 
  <a href="https://t.me/hCaptchaSolverApi" target="_blank">
-<img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
+<img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram 🔗</a>
 </p>
+![gh](https://user-images.githubusercontent.com/4178343/188736077-828ffb2e-b63b-474b-846b-1d930446b5be.png)
 
-**[🔥 register for Free trial credits and API key & ⭐ us 🔥](https://nocaptchaai.com/register)**  \
- **promo discount 30000 solves / 10$** on our [discord](https://discord.gg/E7FfzhZqzA)
+[Free trial credits 🔥 + API key 🔗](https://nocaptchaai.com/register) \
+Promo 30000 solve/10$ \
+Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:ai@nocaptchaai.com">Write Us 📧</a> \
+<p>
+ Buy on  
+  <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
+<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15">  Discord 🔗</a> 
 
+ <a href="https://t.me/hCaptchaSolverApi" target="_blank">
+<img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram 🔗</a>
+  </p>
+  
 ## noCapcthaAi hCaptcha Solver
 
 <p>Takes ~ 0.04s/solve Blazing fast hCaptcha solver based on NeuralNet image detection AI. noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
