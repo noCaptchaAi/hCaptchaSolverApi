@@ -1,12 +1,11 @@
 # hykii#3596
-# hykii#3596
 
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
 
 import datetime, requests, json, pyppeteer, base64, asyncio, random, string
 class Solver:
-  def __init__(self, url, site_key, uid, key):
+  def __init__(self, url, site_key, uid, key, headless = False):
     self.sitekey = site_key
     self.href = url
     self.host = url.replace("https://", "").replace("http://", "")
@@ -17,7 +16,7 @@ class Solver:
     self.shimul = {
       "uid": uid,
       "key": key,
-      "solver": "https://solve.shimul.me/api/solve"
+      "solver": "https://free.nocaptchaai.com/api/solve"
     }
     self.version = self.client.get("https://hcaptcha.com/1/api.js?render=explicit&onload=hcaptchaOnLoad", headers={
         "user-agent": self.userAgent,
@@ -28,12 +27,14 @@ class Solver:
         "sec-fetch-dest": "script",
         "sec-ch-ua-platform": "\"Windows\""
     }).text.split("assetUrl")[1].split("https://newassets.hcaptcha.com/captcha/v1/")[1].split("/static")[0]
+    self.headless = headless
   async def _getHsw(self, m, c):
-    browser = await pyppeteer.launch({"headless": False}, handleSIGINT=False, handleSIGTERM=False, handleSIGHUP=False)
+    browser = await pyppeteer.launch({"headless": self.headless}, handleSIGINT=False, handleSIGTERM=False, handleSIGHUP=False)
     page = await browser.newPage()
     await page.addScriptTag({"content": "Object.defineProperty(navigator, \"webdriver\", {\"get\": () => false}})"})
     await page.addScriptTag({"content": m})
     response = await page.evaluate(f"hsw(\"{c}\")")
+    await page.close()
     await browser.close()
     return str(response)
   async def _getCaptcha(self):
@@ -90,7 +91,7 @@ class Solver:
         url, task_key = str(u["datapoint_uri"]), str(u["task_key"])
         i[z], t_[url] = url, task_key
         z += 1
-    g = c["requester_question"]["en"].replace("Please click each image containing an ", "").replace("Please click each image containing a ", ""); print(g)
+    g = c["requester_question"]["en"]; print(g)
     p = requests.post(self.shimul["solver"], json={
         "images": i,
         "target": g,
