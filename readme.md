@@ -39,7 +39,10 @@
 1. Register [Free](https://nocaptchaai.com/register) ~ 1000 solves/month
    * 30,000 solve/ 10$ and Unlimited plans from 99$ month **
 2. Install hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
-3. Copy `apikey` and `uid` sent to your email. Youre done. Start Working.
+3. Copy `apikey` and `uid` sent to your email. 
+   * Edit installed `hCaptchaSolver.user.js` file
+   * Paste them here ` config = { uid: '', apikey: '' },` 
+   * Start solving!
 
 Example Scripts:
 * Selenium [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example-selenium.py)
