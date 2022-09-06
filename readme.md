@@ -172,9 +172,9 @@ a) response:
     "url": "https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4"
 }
 ```
-```
+
 Send a GET request to url your received in case of not instant solved https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4
-```
+
 b) Instant solved status (Paid user only!):
 
 ```
