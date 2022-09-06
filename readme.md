@@ -15,7 +15,7 @@
 
 ## noCapcthaAi hCaptcha Solver
 
-<p>Takes ~ 0.04s/solve Blazing fast hCaptcha solver based on NeuralNet image detection AI. noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response.We're adding reCaptcha, geetest etc soon.
+<p>Takes ~ 0.04s/solve Blazing fast hCaptcha solver based on NeuralNet image detection AI. noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
 </p> 
 
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
