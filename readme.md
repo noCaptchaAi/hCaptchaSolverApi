@@ -1,6 +1,6 @@
 <div align="center" padding="0" margin="0">
 <p>
- 
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/shimuldn/hCaptchaSolverApi?style=flat-square)
 <img alt="Discord" src="https://img.shields.io/discord/994856206525018112">
 
@@ -8,21 +8,17 @@
 Promo 30000 solve/10$ \
 Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/>
 
-<h3>Buy on  <a href="https://discord.gg/E7FfzhZqzA" target="_blank"> 
+<h3>Buy on  <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
 <img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15">  Discord 🔗</a></h3>
 
-
-
-
-  
 # noCapcthaAi hCaptcha Solver
 
 <p>Takes ~ 0.04s/solve Blazing fast hCaptcha solver based on NeuralNet image detection AI. noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
-</p> 
+</p>
 
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
 <i>Selenium</i>
-  
+
 </div>
 
 ## Features
@@ -34,27 +30,28 @@ Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:a
 📦️ Browsers extensions (work in progress)
 
 ### Userscripts
-🌐 [TamperMonkey/GreaseMonkey/ViolentMonkey UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js) 
+
+🌐 [TamperMonkey/GreaseMonkey/ViolentMonkey UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
 
 ## QuickStart Solving hCaptcha's
 
 1. Register [Free](https://nocaptchaai.com/register) ~ 1000 solves/month
-   * 30,000 solve/ 10$ and Unlimited plans from 99$ month **
+   - 30,000 solve/ 10$ and Unlimited plans from 99$ month \*\*
 2. Install hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
-3. Copy `apikey` and `uid` sent to your email. 
-   * Edit installed `hCaptchaSolver.user.js` file
-   * Paste them here ` config = { uid: '', apikey: '' },` 
-   * Start solving!
+3. Copy `apikey` and `uid` sent to your email.
+   - Edit installed `hCaptchaSolver.user.js` file
+   - Paste them here ` config = { uid: '', apikey: '' },`
+   - Start solving!
 
 Example Scripts:
-* Selenium [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example-selenium.py)
-* puppeteer [here]( https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/puppeteer.js)
-* puppeteer2  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/puppeteer2.js)
-* python  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/example2.py)
-* python_requests [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/python_requests.py)
-* playwright  [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/playwright.js)
-* NodeJs [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/node.js)
-* JavaScript [here](https://github.com/shimuldn/hCaptchaSolverApi/blob/main/usage_examples/javascript.js)
+
+- Selenium [here](usage_examples/example-selenium.py)
+- puppeteer [here]( usage_examples/puppeteer.js)
+- python [here](usage_examples/example2.py)
+- python_requests [here](usage_examples/python_requests.py)
+- playwright [here](usage_examples/playwright.js)
+- NodeJs [here](usage_examples/node.js)
+- JavaScript [here](usage_examples/javascript.js)
 
 ## Build your own scripts
 
@@ -65,7 +62,7 @@ Example Scripts:
 // you need uid and apikey, get free here https://nocaptchaai.com
 
 const uid = ''
-const apikey = '' 
+const apikey = ''
 
 var base64_json = {
    images: {
@@ -132,6 +129,7 @@ async function solve(images, target) {
 ```
  https://free.nocaptchaai.com/api/solve
 ```
+
 Convert images to Base64, JSON like below or [this.JSON](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/base64-body-format.json)
 
 ```
@@ -166,8 +164,8 @@ Convert images to Base64, JSON like below or [this.JSON](https://raw.githubuserc
 
 ## 2) GET Solved
 
-
 a) response:
+
 ```
 {
     "createdat": 1662353086,
@@ -179,9 +177,11 @@ a) response:
 ```
 
 Send a GET request to url your received, can be used as to check status for tasks not insatntly solved.
+
 ```
 https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4
 ```
+
 b) Instant solved status (Paid user only!):
 
 ```
@@ -199,29 +199,25 @@ b) Instant solved status (Paid user only!):
 
 Glossary:
 
-   * `target` = the text you see on hcaptcha popup describing the challenge
-   * `method` = our internal param so keep as it is
-   * `site` = your target domain
-   * `sitekey` = find the sitekey on your target html page: ``` <div class="h-captcha" data-sitekey="your_site_key"></div>```
-   * note: sitekey and site info collected to improve accuracy. we respect privacy.
-   
-
+- `target` = the text you see on hcaptcha popup describing the challenge
+- `method` = our internal param so keep as it is
+- `site` = your target domain
+- `sitekey` = find the sitekey on your target html page: ` <div class="h-captcha" data-sitekey="your_site_key"></div>`
+- note: sitekey and site info collected to improve accuracy. we respect privacy.
 
 ### Got suggestions, questions?
+
 email to <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
-
 ### Enterprise/company with custom requirements?
+
 Enterprise/company mail us <a href="mailto:ai@nocaptchaai.com">ai@nocaptchaai.com</a>
 
-
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15"> Discord</a> 
+<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15"> Discord</a>
  <a href="https://t.me/hCaptchaSolverApi" target="_blank">
 <img src="https://telegram.org/img/favicon.ico"  width="15" height="15"> Telegram </a>
 
 <br>
-  
-
 
 ### [Back to top](#readme)
