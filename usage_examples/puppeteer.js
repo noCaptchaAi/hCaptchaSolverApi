@@ -18,7 +18,7 @@ const request_data = require('request-promise-native');
         baseUrl: 'https://free.nocaptchaai.com/api/solve',
         // baseUrl: 'https://pro.nocaptchaai.com/api/solve', // Enable this if your pro/paid user and disable free one
         siteUrl: 'https://shimuldn.github.io/hcaptcha/',
-        base64: false
+        base64: false  // Sending url is going away end of Sep 2022 So use base64
     },
     browser = await puppeteer.launch({
         headless: false,
@@ -66,7 +66,7 @@ const request_data = require('request-promise-native');
         return response.data
     })
     .catch(console.log);
-    console.log(res);
+//     console.log(res);
     if (res.status == 'new') {
         await sleep(2000)
         const status = await axios({
@@ -78,7 +78,7 @@ const request_data = require('request-promise-native');
             return response.data
         })
         .catch(console.log);
-        console.log(status);
+//         console.log(status);
         if (status.status == 'solved') {
             for (item of status.solution) {
                 await ele[item].click('.image')
