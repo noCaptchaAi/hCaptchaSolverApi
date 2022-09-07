@@ -47,6 +47,7 @@ Example Scripts:
 
 - Selenium [here](usage_examples/example-selenium.py)
 - puppeteer [here]( usage_examples/puppeteer.js)
+- puppeteer (TS) [here](usage_examples/puppeteer.ts)
 - python [here](usage_examples/example2.py)
 - python_requests [here](usage_examples/python_requests.py)
 - playwright [here](usage_examples/playwright.js)
