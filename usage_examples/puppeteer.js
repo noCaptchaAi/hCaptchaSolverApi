@@ -1,153 +1,151 @@
-// Install npm install puppeteer axios
-// put your uid and apikey bellow
-// run node puppeteer.js
+// npm install puppeteer axios request-promise-native
+// Please https://github.com/berstend/puppeteer-extra if your using headless mode.
+// Get Free api key here https://nocaptchaai.com
+// Cheap promo 30k solves for 10$
+// Unlimited plans starts from 99$
+// Selenium, puppeteer, python, playwright scripts https://github.com/shimuldn/hCaptchaSolverApi/tree/main/usage_examples
 
+// https://free.nocaptchaai.com/api/solve for free user and https://pro.nocaptchaai.com/api/solve for paid user.
 
-//  Fill your own UID and API KEY bellow before using.
-//  Make sure you already have selenium, chrome and undetected_chromedriver installed.
-//  If you have any issue please create a github issue or you can ask help on Discord https://discord.gg/E7FfzhZqzA
- 
-
-
-const uid="62c6bf7eb1e76d24e366" // put your uid inside ""
-const apikey="62d0243f-7107-67ee-f312-09d8f5af84f3" // put your apikey inside ""
-
-var args_command = process.argv.slice(3);
 const puppeteer = require('puppeteer');
-const base_url =  "https://free.nocaptchaai.com/api/solve";
-
+const axios = require('axios');
+const request_data = require('request-promise-native');
 
 (async () => {
-  const browser = await puppeteer.launch({
-      headless: false,
-      //executablePath: '/usr/bin/google-chrome',
-      ignoreHTTPSErrors: true,
-      userDataDir: `data`,
-      slowMo: 0,
-      args: [
-      "--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox",
-      '--window-size=1000,900', 
-      '--start-maximized', '--disable-web-security', '--allow-running-insecure-content',
-      '--disable-strict-mixed-content-checking', '--ignore-certificate-errors',"--disable-features=IsolateOrigins,site-per-process", '--blink-settings=imagesEnabled=true'
-      ]})
 
-//   console.log("Opening newPage")
+    const config = {
+        uid: '', // Your uid
+        apikey: '', // Your apikey
+        siteKey: '<site key here>', // sitekey is mendotory for free user. Paid user please ask us for a exception code.
+        baseUrl: 'https://free.nocaptchaai.com/api/solve',
+        // baseUrl: 'https://pro.nocaptchaai.com/api/solve', // Enable this if your pro/paid user and disable free one
+        siteUrl: 'https://shimuldn.github.io/hcaptcha/'
+    }
+        
+    const browser = await puppeteer.launch({
+        headless: false,
+        ignoreHTTPSErrors: true,
+        userDataDir: `data`,
+        slowMo: 0,
+        args: [
+            '--disable-gpu', '--disable-dev-shm-usage', '--no-sandbox', '--lang=en-US',
+            '--window-size=1000,900',
+            '--start-maximized', '--disable-web-security', '--allow-running-insecure-content',
+            '--disable-strict-mixed-content-checking', '--ignore-certificate-errors', '--disable-features=IsolateOrigins,site-per-process', '--blink-settings=imagesEnabled=true'
+        ]
+    })
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
     const page = await browser.newPage();
-    await page.goto('https://shimuldn.github.io/hCaptchaSolverApi/demo_data/demo_sites/1/')
-
-    await page.waitForTimeout(3000)
+    await page.goto(config.siteUrl);
+    await sleep(3000)
     const elementHandle = await page.waitForSelector(`div[class="h-captcha"] iframe`);
-    const f = await elementHandle.contentFrame();
-    // const tt = await f.$eval('div#checkbox', divs => divs.getAttribute("aria-checked"));
-    await f.click("#checkbox")
-    await page.waitForTimeout(3000)
+    const frame = await elementHandle.contentFrame();
+    await frame.click('#checkbox')
+    await sleep(3000)
+    const fm = page.frames().find(f => f.url().startsWith('https://newassets.hcaptcha.com/captcha'));
 
-    // console.log(await getTarget(), await getImages())
-    var target = await getTarget()
-    var images=await getImages()
-    method='/solveww'
-    data_type='image'
-    var site = await page.evaluate(() => document.location.href)
-    
-    // console.log(images)
-    await solve(images, target)
+    await solve(await getImages(), await getTarget())
 
-
-    async function solve(images, target){
-        try{
-          const fm = page.frames().find(f => f.url().startsWith('https://newassets.hcaptcha.com/captcha'));
-          const axios = require('axios');
-          const ele = await fm.$$(".task-image");
-          var target = await getTarget()
-          var res = await axios({
-            method: 'get',
-            url : encodeURI(base_url+'/solveww?target=' + target + '&data_type='+data_type+'&site='+site),
+    async function solve(images, target) {
+        const ele = await fm.$$('.task-image');
+        const res = await axios({
+            method: 'post',
+            url: config.baseUrl,
             headers: {
-              'Content-type': 'application/json',
-              'uid': uid,
-              'apikey': apikey
+                'Content-type': 'application/json',
+                'uid': config.uid,
+                'apikey': config.apikey
             },
-            data: images
-          })
-          .then((response) => {
-            console.log(response.status, JSON.stringify(response.data))
-            // console.log(response.data[0]);
+            data: {
+                'images': images,
+                'target': target,
+                'method': 'hcaptcha_base64',
+                'sitekey': config.siteKey,
+                'site': config.siteUrl
+            }
+        })
+        .then((response) => {
+            console.log('Order', response.status, JSON.stringify(response.data))
             return response.data
-          })
-          .catch((error) => {
-            console.log(error);
-          });
-    
-          for (num in res["solution"]) {
-              if (res["solution"][num] == true) {
-                console.log(num)
-                await ele[num].click('.image')
-                await page.waitForTimeout(200)
-              }
+        })
+        .catch(console.log);
+
+        if (res.status == 'new') {
+            await sleep(2000)
+            const status = await axios({
+                method: 'get',
+                url: res.url,
+                headers: {
+                    'Content-type': 'application/json',
+                    'uid': config.uid,
+                    'apikey': config.apikey
+                },
+            })
+            .then((response) => {
+                console.log('Status',response.status, JSON.stringify(response.data))
+                return response.data
+            })
+            .catch((error) => {
+                console.log(error.status);
+              });
+                
+            if (status.status == 'solved') {
+                for (item of status.solution) {
+                    await ele[String(item)].click('.image')
+                    await sleep(200)
+                }
             }
-    
-          btn=await fm.evaluate(() => document.querySelector(".button-submit").textContent)
-          if (btn == "Verify") {
-            await page.waitForTimeout(200) 
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            target = undefined
-          } else if (btn == "Next") {
-            await page.waitForTimeout(200)
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // console.log("Next btn clicked.")
-          } else {
-            // console.log("btn name is not Verify.")
-            await fm.evaluate(() => document.querySelector(".button-submit").click());
-            // await page.waitForTimeout(1000) 
-          }
-        }catch(e){console.log(e)}
-      }
-    
-
-    async function getImages(){
-        try{
-          const fm = page.frames().find(f => f.url().startsWith('https://newassets.hcaptcha.com/captcha'));
-          const img = await fm.evaluate(() => document.querySelectorAll(".task-image .image")[0].getAttribute("style"));
-          function z(e) {
-              e = e.match(/(?<=\(\").+?(?=\"\))/g);
-              return e ? e[0] : 0;
+        } else if (res.status == 'solved') {
+            for (item of res.solution) {
+                await ele[String(item)].click('.image')
+                await sleep(200)
             }
-          var data = {}
-          var target = await getTarget()
-          const ele = await fm.$$(".task-image");
-          for (let i = 0; i < ele.length; i++) {
-              const urlData = await ele[i].$eval('.image', i => i.style.background);
-              var link = z(urlData)
-              data[i] = link
-          }
-          return data
-        }catch(e){console.log(e)}
-          
-      }
+        }
+        // await sleep(20000)
+        const btn = await fm.evaluate(() => document.querySelector('.button-submit').textContent)
+        await sleep(200)
+        await fm.evaluate(() => document.querySelector('.button-submit').click());
 
-    async function getTarget(){
-          var target
-          for (var t=0; t<5; t++) {
-            try{
-              var fm = page.frames().find(f => f.url().startsWith('https://newassets.hcaptcha.com/captcha'));
-              const e = await fm.evaluate(() => document.querySelector(".prompt-text").textContent);
-              if (e != undefined) {
-                if (e.includes("Please click each image containing an ")) {
-                  target = e.replace("Please click each image containing an ", "")
-                } else if (e.includes("Please click each image containing a ")) {
-                  // console.log("Not undefined")
-                  target = e.replace("Please click each image containing a ", "")
-                } else {
-                  console.log("Unknown target", e)
-                } 
-              }
-              return target
-              break
-            } catch(e){
-            }
-            await page.waitForTimeout(500)
-          }
-      }
+        if (btn == 'Verify') {
+            await sleep(2000)
+        } else if (btn == 'Next' || btn == 'Skip') {
+            await solve(await getImages(), await getTarget())
+        } else {
+            await sleep(1000)
+        }
+    }
 
+    async function getImages() {
+        const ele = await fm.$$('.task-image');
+        const data = {}
+        for (let i = 0; i < ele.length; i++) {;
+            const urlData = await ele[i].$eval('.image', i => i.style.background)
+            url = urlData.match(/url\("(.*)"/)[1] || 0;
+            
+            TODO: "Need to make image download faster."
+            var d = await request_data({
+                url: url,
+                method: 'GET',
+                encoding: null // This is actually important, or the image string will be encoded to the default encoding
+            })
+                .then(result => {
+                    let imageBuffer  = Buffer.from(result);
+                    let imageBase64  = imageBuffer.toString('base64');
+                    return imageBase64
+                });
+            data[i]=d
+        }
+        return data
+    }
 
+    async function getTarget() {
+        try {
+            const e = await fm.evaluate(() => document.querySelector('.prompt-text').textContent);
+            // return e.replace('Please click each image containing an ', '').replace('Please click each image containing a ', '')
+            return e
+        } catch (e) {
+            console.log(e)
+            await sleep(500)
+        }
+    }
 })();
