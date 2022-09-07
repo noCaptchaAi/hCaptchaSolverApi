@@ -40,19 +40,19 @@ Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:a
 2. Install hCaptcha Solver [UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
 3. Copy `apikey` and `uid` sent to your email.
    - Edit installed `hCaptchaSolver.user.js` file
-   - Paste them here ` config = { uid: '', apikey: '' },`
+   - Paste them both 'inside',  ` config = { uid: '', apikey: '' },`
    - Start solving!
 
-Example Scripts:
+**Example Scripts:**
 
-- Selenium [here](usage_examples/example-selenium.py)
-- puppeteer [here]( usage_examples/puppeteer.js)
-- puppeteer (TS) [here](usage_examples/puppeteer.ts)
-- python [here](usage_examples/example2.py)
-- python_requests [here](usage_examples/python_requests.py)
-- playwright [here](usage_examples/playwright.js)
-- NodeJs [here](usage_examples/node.js)
-- JavaScript [here](usage_examples/javascript.js)
+- [Selenium.py](usage_examples/example-selenium.py)
+- [Puppeteer.js]( usage_examples/puppeteer.js)
+- [Puppeteer.ts](usage_examples/puppeteer.ts)
+- [Python.py](usage_examples/example2.py)
+- [Python_requests.py](usage_examples/python_requests.py)
+- [Playwright.js](usage_examples/playwright.js)
+- [Node.js](usage_examples/node.js)
+- [JavaScript.js](usage_examples/javascript.js)
 
 ## Build your own scripts
 
