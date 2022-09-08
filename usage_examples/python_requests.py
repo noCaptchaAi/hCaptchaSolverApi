@@ -3,9 +3,8 @@
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
 
-import datetime, requests, json, pyppeteer, base64, asyncio, random, string
 class Solver:
-  def __init__(self, url, site_key, uid, key, headless = False):
+  def __init__(self, url, site_key, uid, key, headless = False, userDataPath = None):
     self.sitekey = site_key
     self.href = url
     self.host = url.replace("https://", "").replace("http://", "")
@@ -28,8 +27,12 @@ class Solver:
         "sec-ch-ua-platform": "\"Windows\""
     }).text.split("assetUrl")[1].split("https://newassets.hcaptcha.com/captcha/v1/")[1].split("/static")[0]
     self.headless = headless
+    self.userDataPath = userDataPath
+    if self.userDataPath == None: self.userDataPath = os.path.join(os.getcwd(), "browserUserData\\")
+    if not os.path.exists(self.userDataPath):
+        os.mkdir(self.userDataPath)
   async def _getHsw(self, m, c):
-    browser = await pyppeteer.launch({"headless": self.headless}, handleSIGINT=False, handleSIGTERM=False, handleSIGHUP=False)
+    browser = await pyppeteer.launch({"headless": self.headless, "userDataDir": self.userDataPath, "args": []})
     page = await browser.newPage()
     await page.addScriptTag({"content": "Object.defineProperty(navigator, \"webdriver\", {\"get\": () => false}})"})
     await page.addScriptTag({"content": m})
@@ -110,7 +113,7 @@ class Solver:
             p2 = requests.get(r).text
             print(p2)
             if "solved" in p2: p2 = json.loads(p2); break
-            elif "pro only" in p2: return False
+            elif not "queue" in p2: return False
             if z >= 5: print(p2); return False
             z += 1
             await asyncio.sleep(5.0)
@@ -147,9 +150,21 @@ class Solver:
         else: return False
     else:
         return False
-      
 async def main():
-    print(await Solver("<URL>", "<SITE KEY>", "<UID>", "<KEY>").solveCaptcha())
+    config = {
+        "solver": {
+            "uid": "<UID>",
+            "api_key": "<API_KEY>"
+        },
+        "hcaptcha": {
+            "url": "<URL>",
+            "site_key": "<SITE_KEY>"
+        },
+        "headless": False # browser visibility
+    }
+    solver = Solver(config["hcaptcha"]["url"], config["hcaptcha"]["site_key"], config["solver"]["uid"], config["solver"]["api_key"], config["headless"])
+    result = await solver.solveCaptcha()
+    print(result)
     input()
 
 if __name__ == '__main__':
