@@ -3,6 +3,7 @@
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
 
+import datetime, requests, json, pyppeteer, base64, asyncio, random, string, os
 class Solver:
   def __init__(self, url, site_key, uid, key, headless = False, userDataPath = None):
     self.sitekey = site_key
