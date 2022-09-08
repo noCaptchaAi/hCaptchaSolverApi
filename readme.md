@@ -1,15 +1,17 @@
 <div align="center" padding="0" margin="0">
-<p>
+<p align="center" position="inline" padding="0" margin="0">
+<a href="https://discord.gg/E7FfzhZqzA" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/hCaptchaSolverApi" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+<a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
+</p>
 
-![GitHub Repo stars](https://img.shields.io/github/stars/shimuldn/hCaptchaSolverApi?style=flat-square)
-<img alt="Discord" src="https://img.shields.io/discord/994856206525018112">
 
-[Free trial credits 🔥 + API key 🔗](https://nocaptchaai.com/register) \
-Promo 30000 solve/10$ \
-Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/>
+### [Free trial credits 🔥 with free API key](https://nocaptchaai.com/register)
 
-<h3>Buy on  <a href="https://discord.gg/E7FfzhZqzA" target="_blank">
-<img src="https://camo.githubusercontent.com/73982ce1ec8b82ac1c26e2ff755e44b20005fe131c0836810499dc61a3d4f43f/68747470733a2f2f646973636f72642e636f6d2f6173736574732f65633263333463616464346235663435393434313531323733383061383565362e69636f" width="15" height="15">  Discord 🔗</a></h3>
+### Promo 30000 solve/10$
+
+### Unlimited plans, Custom API requirements?
+### Buy on <a href="https://discord.gg/E7FfzhZqzA">DISCORD</a> or <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/>
 
 # noCapcthaAi hCaptcha Solver
 
@@ -23,15 +25,17 @@ Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:a
 
 ## Features
 
-⚡ 0.04s ~ 1s solves \
-🌐 Support all programming languages with HTTP api \
-🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more \
-💡 Works with cli tools too \
+⚡ 0.04s ~ 1s solves
+🌐 Support all programming languages with HTTP api
+🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more
+💡 Works with cli tools too
 📦️ Browsers extensions (work in progress)
 
 ### Userscripts
 
-🌐 [TamperMonkey/GreaseMonkey/ViolentMonkey UserScript](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)
+#### 🌐 TamperMonkey/GreaseMonkey/ViolentMonkey
+
+**[Get hCaptchaSolver.user.js](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)**
 
 ## QuickStart Solving hCaptcha's
 
@@ -46,7 +50,7 @@ Unlimited plans, Custom api requirements for person/enterprise <a href="mailto:a
 **Example Scripts:**
 
 - [Selenium.py](usage_examples/example-selenium.py)
-- [Puppeteer.js]( usage_examples/puppeteer.js)
+- [Puppeteer.js](usage_examples/puppeteer.js)
 - [Puppeteer.ts](usage_examples/puppeteer.ts)
 - [Python.py](usage_examples/example2.py)
 - [Python_requests.py](usage_examples/python_requests.py)
