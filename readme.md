@@ -5,10 +5,10 @@
 <a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
 </p>
 
-<h3><a href="https://nocaptchaai.com/register">Free trial credits 🔥 with free API key</a> </h3>
-<h3> Promo 30000 solve/10$</h3>
-<h3>Unlimited plans, Custom API requirements?</h3>
-<h3>Buy on <a href="https://discord.gg/E7FfzhZqzA">DISCORD</a> or <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/></h3>
+<h4><a href="https://nocaptchaai.com/register">Free trial credits 🔥 with free API key</a> </h4>
+<h4>Rate:~ 1000 solves/0.3$</h4>
+<h4>Unlimited plans, Custom API requirements?</h4>
+<h4>Buy on <a href="https://discord.gg/E7FfzhZqzA">DISCORD</a> or <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/></h4>
 
 # noCapcthaAi hCaptcha Solver
 
