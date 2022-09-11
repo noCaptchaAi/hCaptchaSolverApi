@@ -24,7 +24,7 @@
 
 ⚡ 0.04s ~ 1s solves \
 🌐 Support all programming languages with HTTP api \
-🌀 Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more \
+🌀 Scripts for Python, NodeJS, JS, Puppeteer, Selenium, Playwright and more \
 💡 Works with cli tools too \
 📦️ Browsers extensions (work in progress)
 
