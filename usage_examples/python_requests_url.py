@@ -2,6 +2,7 @@
 
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
+# url is going away by Sep 2022
 
 import datetime, requests, json, pyppeteer, base64, asyncio, random, string, os
 class Solver:
