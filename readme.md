@@ -10,8 +10,8 @@
 Blazing fast hCaptcha solver based on NeuralNet image detection AI. **Speed 0.04 ~ 1s/solve** , noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
 
 <h4><a href="https://nocaptchaai.com/register">Register Free trial 🔥 Apikey</a> </h4>
-<h4>1000 solves/0.3$ ~ Unlimited 10 threads 99$. Want More threads? <a href="https://docs.nocaptchaai.com/Intro">Check Plans</a> Buy on <a href="https://discord.gg/E7FfzhZqzA">Discord</a> or <a href="https://t.me/noCaptchaAi">Telegram<a/></h4>
-
+<h4>Rate 1000s/0.3$ ~ Unlimited 10 threads/99$. More threads? <a href="https://docs.nocaptchaai.com/Intro">Check Plans</h4>
+<h4></a> Buy on <a href="https://discord.gg/E7FfzhZqzA">Discord</a> or <a href="https://t.me/noCaptchaAi">Telegram<a/></h4>
 <h3><a href="https://github.com/noCaptchaAi/hCaptchaSolver.user.js">Solver Userscript</a> ~ <a href="https://docs.nocaptchaai.com">Api Docs</a></h3>
 
 </p>
