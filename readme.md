@@ -1,18 +1,19 @@
 <div align="center" padding="0" margin="0">
+
+# hCaptcha Solver Api 
+#### by [noCapcthaAi.com](http://noCapcthaAi.com)
 <p align="center" position="inline" padding="0" margin="0">
 <a href="https://t.me/noCaptchaAi" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
-</p>
 
-<h4><a href="https://nocaptchaai.com/register">Free trial credits 🔥 with free API key</a> </h4>
-<h4>Rate:~ 1000 solves/0.3$</h4>
-<h4>Unlimited plans, Custom API requirements?</h4>
-<h4>Buy on <a href="https://discord.gg/E7FfzhZqzA">DISCORD</a> or <a href="mailto:ai@nocaptchaai.com">Write Us 📧<a/></h4>
+Blazing fast hCaptcha solver based on NeuralNet image detection AI. **Speed 0.04 ~ 1s/solve** , noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
 
-# noCapcthaAi hCaptcha Solver
+<h4><a href="https://nocaptchaai.com/register">Register Free trial 🔥 Apikey</a> </h4>
+<h4>1000 solves/0.3$ ~ Unlimited 10 threads 99$. Want More threads? <a href="https://docs.nocaptchaai.com/Intro">Check Plans</a> Buy on <a href="https://discord.gg/E7FfzhZqzA">Discord</a> or <a href="https://t.me/noCaptchaAi">Telegram<a/></h4>
 
-<p>Takes ~ 0.04s/solve Blazing fast hCaptcha solver based on NeuralNet image detection AI. noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
+<h3><a href="https://github.com/noCaptchaAi/hCaptchaSolver.user.js">Solver Userscript</a> ~ <a href="https://docs.nocaptchaai.com">Api Docs</a></h3>
+
 </p>
 
 ![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
@@ -28,11 +29,8 @@
 💡 Works with cli tools too \
 📦️ Browsers extensions (work in progress)
 
-### Userscripts
 
-#### 🌐 TamperMonkey/GreaseMonkey/ViolentMonkey
 
-**[Get hCaptchaSolver.user.js](https://github.com/noCaptchaAi/hCaptchaSolver.user.js)**
 
 ## QuickStart Solving hCaptcha's
 
