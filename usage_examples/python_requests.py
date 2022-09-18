@@ -2,31 +2,20 @@
 
 # pip install pyppeteer asyncio requests
 # run 'python python_requests.py' in terminal
-# url is going away by Sep 2022
 
-import datetime
-import requests
-import json
-import pyppeteer
-import base64
-import asyncio
-import random
-import string
-import os
-
-
+import datetime, requests, json, pyppeteer, base64, asyncio, random, string, os
 class Solver:
-    def __init__(self, url, site_key, uid, key, headless=False, userDataPath=None):
-        self.sitekey = site_key
+    def __init__(self, url, sitekey, uid, apikey, headless = False, userDataPath = None):
+        self.sitekey = sitekey
         self.href = url
         self.host = url.replace("https://", "").replace("http://", "")
         if "/" in self.host and not self.host.startswith("/"):
             self.host = self.host.split("/")[0]
         self.client = requests.Session()
         self.userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.141 Whale/3.15.136.29 Safari/537.36"
-        self.shimul = {
+        self.nocaptchaai = {
             "uid": uid,
-            "key": key,
+            "apikey": apikey,
             "solver": "https://free.nocaptchaai.com/api/solve"
         }
         self.version = self.client.get("https://hcaptcha.com/1/api.js?render=explicit&onload=hcaptchaOnLoad", headers={
@@ -40,13 +29,11 @@ class Solver:
         }).text.split("assetUrl")[1].split("https://newassets.hcaptcha.com/captcha/v1/")[1].split("/static")[0]
         self.headless = headless
         self.userDataPath = userDataPath
-        if self.userDataPath == None: self.userDataPath = os.path.join(
-            os.getcwd(), "browserUserData\\")
+        if self.userDataPath == None: self.userDataPath = os.path.join(os.getcwd(), "browserUserData\\")
         if not os.path.exists(self.userDataPath):
             os.mkdir(self.userDataPath)
-
     async def _getHsw(self, m, c):
-        browser = await pyppeteer.launch({"headless": self.headless, "userDataDir": self.userDataPath, "args": []})
+        browser = await pyppeteer.launch({"headless": self.headless, 'executablePath':'/usr/bin/chromium-browser', "userDataDir": self.userDataPath, "args": []})
         page = await browser.newPage()
         await page.addScriptTag({"content": "Object.defineProperty(navigator, \"webdriver\", {\"get\": () => false}})"})
         await page.addScriptTag({"content": m})
@@ -54,7 +41,6 @@ class Solver:
         await page.close()
         await browser.close()
         return str(response)
-
     async def _getCaptcha(self):
         o = json.loads(self.client.post(f"https://hcaptcha.com/checksiteconfig?v={self.version}&host={self.host}&sitekey={self.sitekey}&sc=1&swa=1", headers={
             "accept": "application/json",
@@ -70,8 +56,7 @@ class Solver:
             "sec-fetch-mode": "cors",
             "sec-fetch-site": "same-site"
         }).text)
-        l = json.loads(base64.b64decode(
-            str((o["c"]["req"].split(".")[1]) + ("=" * 8)).encode()).decode())["l"]
+        l = json.loads(base64.b64decode(str((o["c"]["req"].split(".")[1]) + ("=" * 8)).encode()).decode())["l"]
         self.s = self.client.get(f"{l}/hsw.js", headers={
             "user-agent": self.userAgent,
             "referer": f"https://newassets.hcaptcha.com/captcha/v1/{self.version}/static/hcaptcha.html",
@@ -94,7 +79,7 @@ class Solver:
             "accept": "application/json",
             "accept-encoding": "gzip, deflate, br",
             "accept-language": "en-US,en;q=0.9",
-            "content-length": str(len(p)),
+            "content-length": str(len(p)),   
             "content-type": "application/x-www-form-urlencoded",
             "origin": "https://newassets.hcaptcha.com",
             "referer": "https://newassets.hcaptcha.com/",
@@ -105,8 +90,7 @@ class Solver:
         }, data=p).json()
         return c
 
-
-    def get_as_base64_without(img_url):
+    async def solveCaptcha(self):
         headers = {
             "Authority": "hcaptcha.com",
             "Accept": "application/json",
@@ -116,36 +100,34 @@ class Solver:
             "Sec-Fetch-Site": "same-site",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
-            "User-Agent": headers,
+            "User-Agent": self.userAgent,
         }
-        return base64.b64encode(requests.get(img_url, headers=headers).content)
 
-    async def solveCaptcha(self):
         c = await self._getCaptcha(); k, t = c["key"], c["tasklist"]; i, t_, z = {}, {}, 0
         for u in t:
-            img_base64 = base64.b64encode(requests.get(u['datapoint_uri']).content)
+            img_base64 = base64.b64encode(requests.get(str(u["datapoint_uri"]), headers = headers).content)
             img_base64_decoded = img_base64.decode('utf-8') 
             url, task_key =img_base64_decoded , str(u["task_key"])
             i[z], t_[url] = url, task_key
             z += 1
-        g = c["requester_question"]["en"]; print(g)
-        p = requests.post(self.shimul["solver"], json={
+        g = c["requester_question"]["en"]; print(f"Target is ==> {g}")
+        p = requests.post(self.nocaptchaai["solver"], json={
             "images": i,
             "target": g,
-            "data_type": "url",
+            "method": "hcaptcha_base64",
             "site": self.href,
-            "site_key": self.sitekey
+            "sitekey": self.sitekey
         }, headers={
             "Content-type": "application/json",
-            "uid": self.shimul["uid"],
-            "apikey": self.shimul["key"]
+            "uid": self.nocaptchaai["uid"],
+            "apikey": self.nocaptchaai["apikey"]
         }).text; print(p)
         if "url" in p:
             p = json.loads(p); r, p2, z, a = p["url"], None, 0, {}
             await asyncio.sleep(2.5)
             while True:
                 p2 = requests.get(r).text
-                print(p2)
+                # print(p2)
                 if "solved" in p2: p2 = json.loads(p2); break
                 elif not "queue" in p2: return False
                 if z >= 5: print(p2); return False
@@ -154,7 +136,7 @@ class Solver:
             for d in i:
                 if str(d) in p2["solution"]: a[t_[i[d]]] = "true"
                 else: a[t_[i[d]]] = "false"
-            print(a)
+            # print(a)
             h = await self._getHsw(self.s, c["c"]["req"])
             s = {
                 "v": self.version,
@@ -185,19 +167,18 @@ class Solver:
         else:
             return False
 async def main():
-    
     config = {
         "solver": {
-            "uid": "<UID>",
-            "api_key": "<API_KEY>"
+            "uid": "your uid",
+            "apikey": "your api-key"
         },
         "hcaptcha": {
-            "url": "<URL>",
-            "site_key": "<SITE_KEY>"
+            "url": "site-url",
+            "sitekey": "site-key"
         },
-        "headless": False # browser visibility
+        "headless": True # browser visibility
     }
-    solver = Solver(config["hcaptcha"]["url"], config["hcaptcha"]["site_key"], config["solver"]["uid"], config["solver"]["api_key"], config["headless"])
+    solver = Solver(config["hcaptcha"]["url"], config["hcaptcha"]["sitekey"], config["solver"]["uid"], config["solver"]["apikey"], config["headless"])
     result = await solver.solveCaptcha()
     print(result)
     input()
