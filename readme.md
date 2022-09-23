@@ -9,10 +9,10 @@
 
 Blazing fast hCaptcha solver based on NeuralNet image detection AI. **Speed 0.04 ~ 1s/solve** , noCapcthaAi is scaleable and robust so you can throw any kind of load. It's as simple as send base64 images <code>post</code> request and get solved response. We're adding reCaptcha, geetest etc soon.
 
-<h4><a href="https://nocaptchaai.com/register">Register Free trial 🔥 Apikey</a> </h4>
-<h4>Rate 1000s/0.3$ ~ Unlimited 10 threads/99$. More threads? <a href="https://docs.nocaptchaai.com/Intro">Check Plans</h4>
-<h4></a> Buy on <a href="https://discord.gg/E7FfzhZqzA">Discord</a> or <a href="https://t.me/noCaptchaAi">Telegram<a/></h4>
-<h3><a href="https://github.com/noCaptchaAi/hCaptchaSolver.user.js">Solver Userscript</a> ~ <a href="https://docs.nocaptchaai.com">Api Docs</a></h3>
+<h2><a href="https://nocaptchaai.com/register">Register Free trial 🔥</a> </h2>
+<h3>Rate: 1000/0.3$ ~ Unlimited 10 threads/99$. More threads? <a href="https://docs.nocaptchaai.com/Intro">Check Plans</h3>
+<h2></a> Buy on <a href="https://discord.gg/E7FfzhZqzA">Discord</a> or <a href="https://t.me/noCaptchaAi">Telegram<a/></h2>
+<h2><a href="https://github.com/noCaptchaAi/hCaptchaSolver.user.js">Solver Userscript</a> ~ <a href="https://docs.nocaptchaai.com">Api Documents</a></h2>
 
 </p>
 
@@ -57,7 +57,7 @@ Blazing fast hCaptcha solver based on NeuralNet image detection AI. **Speed 0.04
 
 ### javaScript Example with `axios` and `fetch`
 
-```
+```js
 // if you wanna use axios, get from CDN from unpkg or jsdeliver, eg. unpkg: https://unpkg.com/axios@1.0.0-alpha.1/dist/axios.min.js
 // you need uid and apikey, get free here https://nocaptchaai.com
 
@@ -132,7 +132,7 @@ async function solve(images, target) {
 
 Convert images to Base64, JSON like below or [this.JSON](https://raw.githubusercontent.com/shimuldn/hCaptchaSolverApi/main/usage_examples/base64-body-format.json)
 
-```
+```json
 {
   "images": {
     "0": "1st base64 image hash",
@@ -166,7 +166,7 @@ Convert images to Base64, JSON like below or [this.JSON](https://raw.githubuserc
 
 a) response:
 
-```
+```json
 {
     "createdat": 1662353086,
     "id": "h-q7FBc9fXJ0V69ox4",
@@ -184,7 +184,7 @@ https://free.nocaptchaai.com/api/status?id=h-q7FBc9fXJ0V69ox4
 
 b) Instant solved status (Paid user only!):
 
-```
+```json
 {
     "processing_time": "0.05s",
     "solution": [

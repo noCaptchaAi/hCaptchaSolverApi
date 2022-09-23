@@ -1,17 +1,16 @@
 {
   "images": {
-    "0": "https://i.imgur.com/YNtQAlR.jpeg",
-    "1": "https://i.imgur.com/3T7eASH.jpeg",
-    "2": "https://i.imgur.com/s4pxelS.jpeg",
-    "3": "https://i.imgur.com/1IgTz4Y.jpeg",
-    "4": "https://i.imgur.com/rgh5xFV.jpeg",
-    "5": "https://i.imgur.com/uZcftQe.jpeg",
-    "6": "https://i.imgur.com/MqmsMwz.jpeg",
-    "7": "https://i.imgur.com/7lwxxXy.jpeg",
-    "8": "https://i.imgur.com/uIX5UVP.jpeg"
+    "0": "base64 image",
+    "1": "base64 image",
+    "2": "base64 image",
+    "3": "base64 image",
+    "4": "base64 image",
+    "5": "base64 image",
+    "...": "...",
+    "18": "base64 image"
   },
   "target": "train",
-  "data_type": "url",
-  "site_key": "243242",
-  "site": "https://youre-sending-request-from.com"
+  "data_type": "hcaptcha_base64",
+  "site_key": "243242xxxxxkjhil33ed3",
+  "site": "https://website.com"
 }
