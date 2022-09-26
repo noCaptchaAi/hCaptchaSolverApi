@@ -16,10 +16,21 @@ Blazing fast hCaptcha solver based on NeuralNet image detection AI. **Speed 0.04
 
 </p>
 
-![hCaptchaSolverApi_Demo_Selenium](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
-<i>Selenium</i>
+
+<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank"><img src="https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif" width="700"></a>
+
+
+<i>Click image to go to website</i>
+
+
+<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank"><img src="https://user-images.githubusercontent.com/4178343/192277689-3da6c94b-2407-43f4-a5dc-691e4b6d5196.png" width="700"></a>
+
+<i>Live Demo | Click above image, go to Stackblitz IDE</i>
+
 
 </div>
+
+
 
 ## Features
 
