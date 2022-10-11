@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Frame, Page } from 'puppeteer';
 import puppeteer from 'puppeteer';
 
-const BASE_URL = 'https://shimuldn.github.io/hCaptchaSolverApi/demo_data/demo_sites/1/';
+const BASE_URL = 'https://accounts.hcaptcha.com/demo';
 const API_URL = 'https://free.nocaptchaai.com/api/solve';
 const API_KEY = ''; // <-- your API key here
 const UID = ''; // <-- your UID here
