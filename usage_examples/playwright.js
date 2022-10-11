@@ -2,7 +2,6 @@
 // put your uid and key
 // run node playwright.js in terminal
 
-// https://github.com/Dollar3795/hCaptcha-Scraper
 
 const { default: axios } = require("axios");
 const { path } = require("ghost-cursor");
