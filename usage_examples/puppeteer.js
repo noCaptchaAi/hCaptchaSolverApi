@@ -222,7 +222,7 @@ async function doSolvingWith_noCaptchaAi_API(uid, apikey, site, siteKey, account
 
 uid = '', // Your uid
 apikey = '', // Your apikey
-site = 'https://shimuldn.github.io/hcaptcha/'
+site = 'https://accounts.hcaptcha.com/demo'
 
 siteKey= 'sitekey' // sitekey is mendotory for free user. Paid user please ask us for a exception code.
 
