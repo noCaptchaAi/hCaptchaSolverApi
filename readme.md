@@ -52,5 +52,9 @@ hCaptcha solver Ai Based.<br>
 <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" width="30px">
 
 [nocaptchaai-puppeteer](https://github.com/noCaptchaAi/nocaptchaai-puppeteer)
+  
+<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/38/000000/external-javascript-computer-programming-icons-flaticons-lineal-color-flat-icons.png"/>
+  
+[Example Scripts: python, selenium, js, puppetteer & more ](https://github.com/shimuldn/hCaptchaSolverApi/tree/main/usage_examples)
 
 </p>
