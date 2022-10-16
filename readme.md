@@ -1,8 +1,8 @@
 
 
-<h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1
-<hr>
-<h2> Buy Apikey <a href="https://nocaptchaai.com/buy.html">noCaptchaAi.com/buy</a></h2>
+<h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1>
+<h3>Fast hCaptcha solver based on Machine learning Ai</h3>
+<h4> Buy Apikey <a href="https://nocaptchaai.com/buy.html">noCaptchaAi.com/buy</a></h4>
 
 <p>
 <p>
@@ -11,13 +11,10 @@
 <a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
 </p>
 
-## [Dashboard](https://dash.nocaptchaai.com) ~ [Api Document](https://docs.nocaptchaai.com)
+crazy fast ⚡ solving: <br>
+min: 2ms ~ max: 500ms
 
-Fast and Accurate
-hCaptcha solver Ai Based.<br>
-⚡min .02s  <br>
-⚡max  1s
-
+### [Dashboard](https://dash.nocaptchaai.com) ~ [Api Document](https://docs.nocaptchaai.com)
 </p>
 
 <a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank">> Live JS Demo | Stackblitz IDE</a>
