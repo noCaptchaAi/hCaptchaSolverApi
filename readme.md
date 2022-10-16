@@ -20,9 +20,11 @@ hCaptcha solver Ai Based.<br>
 
 </p>
 
+<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank">> Live JS Demo | Stackblitz IDE</a>
+
 <a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank"><img src="https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif" width="700"></a>
 
-<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank">>Live Demo | Click above image, go to Stackblitz IDE</a>
+
 
 
 
