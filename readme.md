@@ -11,7 +11,7 @@
 <a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
 </p>
 
-## [Dashboard](https://dash.nocaptchaai.com) ~ [Documents](https://docs.nocaptchaai.com) ~ [WebSite](https://nocaptchaai.com) 
+## [Dashboard](https://dash.nocaptchaai.com) ~ [Api Document](https://docs.nocaptchaai.com)
 
 Fast and Accurate
 hCaptcha solver Ai Based.<br>
