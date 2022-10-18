@@ -1,15 +1,32 @@
-
-
 <h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1>
 <h3>Fast hCaptcha solver based on Machine learning Ai</h3>
-<h4> Buy Apikey <a href="https://nocaptchaai.com/buy.html">noCaptchaAi.com/buy</a></h4>
 
-<p>
 <p>
 <a href="https://t.me/noCaptchaAi" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a href="https://discord.gg/E7FfzhZqzA"><img alt="Discord" src="https://img.shields.io/discord/994856206525018112"></a>
 </p>
+
+
+<h3> Star this repo and Get 🔥 6000 monthly solves 
+<a href="https://nocaptchaai.com/register">Free</a></h3>
+
+
+| Limited Plans | Monthly | Unlimited Plans | Monthly   |
+| ------------- | ------- | --------------- | --------- |
+| 200 daily     | <a href="https://nocaptchaai.com/register">Get 6K free 💙</a></h2>     | Love <3 | free |
+| 3K daily      | 6$      | 500 /min        | 199$      |
+| 6K daily      | 10$     | 800 /min        | 399$      |
+| 20K daily     | 18$     | 2500 /min       | 799$      |
+| 50K daily     | 35$     | 5000 /min       | 1799$     |
+| 80K daily     | 45$     | 10000 /min      | 2999$     |
+| 250K daily    | 99$     | 50000 /min      | 4999$     |
+| 500K daily    | 170$    | Ultron no-Cap   | ✨contact |
+| **How to buy?**   | **<a href="https://nocaptchaai.com/buy.html">PayPal Link</a>**    | **<a href="https://dash.nocaptchaai.com">Dasboard Soon</a>**  | **or Discord & Telegram** |
+
+
+<img src="https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif" width="650">
+
 
 crazy fast ⚡ solving: <br>
 min: 2ms ~ max: 500ms
@@ -17,9 +34,9 @@ min: 2ms ~ max: 500ms
 ### [Dashboard](https://dash.nocaptchaai.com) ~ [Api Document](https://docs.nocaptchaai.com)
 </p>
 
-<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank">> Live JS Demo | Stackblitz IDE</a>
 
-<a href="https://stackblitz.com/edit/js-uvenoc?ctl=1&devToolsHeight=53&embed=1&file=index.js&theme=dark" target="_blank"><img src="https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif" width="700"></a>
+
+
 
 
 
