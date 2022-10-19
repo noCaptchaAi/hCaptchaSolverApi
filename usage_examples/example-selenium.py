@@ -41,7 +41,7 @@ options = webdriver.ChromeOptions()
 # options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-driver = uc.Chrome(options=options, use_subprocess=True)
+driver = uc.Chrome(options=options)
 
 def main():
     driver.implicitly_wait(30)
