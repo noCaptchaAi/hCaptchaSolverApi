@@ -39,7 +39,7 @@ options = webdriver.ChromeOptions()
 # options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-driver = uc.Chrome(options=options, use_subprocess=True)
+driver = uc.Chrome(options=options)
 
 def main():
     driver.get('https://shimuldn.github.io/hCaptchaSolverApi/demo_data/demo_sites/2/')
