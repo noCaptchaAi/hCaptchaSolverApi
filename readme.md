@@ -1,5 +1,8 @@
+<p>
 <h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1>
-<h3>Fast hCaptcha solver based on Machine learning Ai</h3>
+<h4>Fast and affordable hCaptcha Solver based on Ai vision. Automated captcha solving API with image classification</h4>
+<i>"saving your humanity online, one captcha at a time. Bots are humans too!" .. An wise Bot-007</i>
+</p>
 
 <p>
 <a href="https://t.me/noCaptchaAi" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
