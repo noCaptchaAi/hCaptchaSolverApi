@@ -23,7 +23,7 @@
 | 20K daily     | 18$     | 2500 /min       | 799$      |
 | 50K daily     | 35$     | 5000 /min       | 1799$     |
 | 80K daily     | 45$     | 10000 /min      | 2999$     |
-| 250K daily    | 99$     | 50000 /min      | 4999$     |
+| 250K daily    | 99$     | 20000 /min      | 4999$     |
 | 500K daily    | 170$    | Ultron no-Cap   | ✨contact |
 | **How to buy?**   | **<a href="https://nocaptchaai.com/buy.html">PayPal Link</a>**    | **<a href="https://dash.nocaptchaai.com">Dasboard Soon</a>**  | **or Discord & Telegram** |
 
