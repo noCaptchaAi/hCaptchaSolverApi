@@ -123,7 +123,7 @@ const solver = {
                     await captchaFrame.click("[class^='button-submit']");
                 }
             } catch (error) {
-                return "An error occurred. (line 89-124, " + error + ")";
+                return "An error occurred. (" + error + ")";
             }
             count = 0;
             let g_recaptcha_response = "";
