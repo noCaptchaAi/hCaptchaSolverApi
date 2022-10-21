@@ -1,7 +1,7 @@
 <p>
 <h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1>
 <h4>Fast and affordable hCaptcha Solver based on Ai vision. Automated captcha solving API with image classification</h4>
-<i>"saving your humanity online, one captcha at a time. Bots are humans too!" .. An wise Bot-007</i>
+<i>"saving your humanity online, one captcha at a time. Bots are humans too!" .. Bot-007</i>
 </p>
 
 <p>
