@@ -26,12 +26,10 @@
 ## ↓ Buy and Get Solved
 
 
-### 🛍️ Buy with <a href="https://nocaptchaai.com/buy.html">PayPal</a></a>
-### 🛍️ Buy -> ₿ Crypto <a href="https://discord.gg/E7FfzhZqzA">Discord</a> OR <a href="https://t.me/noCaptchaAi">Telegram</a>
-### 🔥 Free 6000 solves every month [Get Free](https://nocaptchaai.com/register) (***Please ⭐Repo if you enjoying free↗***)
-### 🏠 [Homepage](https://dash.nocaptchaai.com)
-### 🏷️Cheap [Plans](https://nocaptchaai.com/plans)
-### 🗎 Api Documents [Docs](https://docs.nocaptchaai.com)
+#### 🛍️ Buy with <a href="https://nocaptchaai.com/buy.html">PayPal</a></a> OR Crypto 
+#### 🛍️ For Crypto DM -><a href="https://discord.gg/E7FfzhZqzA">Discord</a> OR <a href="https://t.me/noCaptchaAi">Telegram</a>
+#### 🔥 Free 6000 solves every month [Get Free](https://nocaptchaai.com/register) (***Please ⭐Repo if you enjoying free↗***)
+#### 🏠 [Homepage](https://dash.nocaptchaai.com) ~~~ 🏷️Cheap [Plans](https://nocaptchaai.com/plans) ~~~ 🗎 Api Documents [Docs](https://docs.nocaptchaai.com)
 
 
 ## ↓ Demo
