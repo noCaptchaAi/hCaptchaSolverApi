@@ -21,18 +21,11 @@
  
 
 
-<p>
+### 🔥 Try our FREE 6000 solves/month Plan
 
-</p>
-
-## ↓ Get Solved Really Cheap
-
-
-### 🛍️ Buy with <a href="https://dash.nocaptchaai.com/">PayPal and Crypto</a></a>
-### 🔥 6000 solves/month [Get Free](https://nocaptchaai.com/register) (***Please ⭐ Repo if you enjoying free↗***)
-### 🏠 [Dashboard](https://dash.nocaptchaai.com)
-### 🏷️Cheap [Plans](https://nocaptchaai.com/plans)
-### 🗎 Api Documents [Docs](https://docs.nocaptchaai.com)
+### <a href="https://dash.nocaptchaai.com/">Visit Dashboard</a></a>
+Paypal and Crypto 
+### 🏠 [Homepage](https://dash.nocaptchaai.com)
 
 
 ## ↓ Demo
