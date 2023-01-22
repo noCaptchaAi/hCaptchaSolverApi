@@ -1,4 +1,4 @@
-#### News: We're looking for copany/sole partners and develoers who can build integrations. Check topics on dashboard.
+#### News: We're looking for company/sole partners and developers who can build integrations. Check topics on dashboard.
 
 <p>
 <h1><img src="https://avatars.githubusercontent.com/u/110127579" width="30px" /> hCaptcha Solver Api </h1>
