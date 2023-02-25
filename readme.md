@@ -53,9 +53,4 @@ Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
 
 [nocaptchaai-puppeteer](https://github.com/noCaptchaAi/nocaptchaai-puppeteer)
 
-
-<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/38/000000/external-javascript-computer-programming-icons-flaticons-lineal-color-flat-icons.png"/>
-  
-[Example Scripts: python, selenium, js, puppetteer & more ](https://github.com/shimuldn/hCaptchaSolverApi/tree/main/usage_examples)
-
 </p>
