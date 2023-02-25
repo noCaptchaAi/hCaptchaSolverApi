@@ -29,8 +29,7 @@ Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
 </a>
 
 ## ↓ Demo
-<img src="https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif" width="850">
-
+![image](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
 
 ## ↓ Solve with Free Softwares
 
