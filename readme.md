@@ -36,7 +36,7 @@ Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
 
 <p>
 
-![image](https://user-images.githubusercontent.com/38348819/221360723-08d3b7bb-2e02-461f-8f0c-ffc18a19ecbf.png)
+<img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg"  width="45px"/>
 
 [Chrome Extension](https://github.com/noCaptchaAi/noCaptcha_extension)
 
