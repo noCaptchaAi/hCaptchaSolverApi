@@ -24,10 +24,6 @@ Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
 <p> 💲 Paypal - Crypto- Webmoney (Card, UPI, Stripe soon)</p>
 </p>
 
-<a target="_blank" href="https://discord.com/invite/E7FfzhZqzA" align="center">
-<img src="https://user-images.githubusercontent.com/38348819/221361224-bab6c52e-a935-4963-a83b-d72cc23f8ed0.png" width="250">
-</a>
-
 ## ↓ Demo
 ![image](https://user-images.githubusercontent.com/4178343/180646819-324163a8-0c4c-4571-b01c-2f98ab8a1127.gif)
 
