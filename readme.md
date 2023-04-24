@@ -20,7 +20,7 @@ Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
 
 
 <p  align="center">
-<h2>🔥 Try our FREE 6000 solves/month Plan <a href="https://dash.nocaptchaai.com/">Here Dashboard</a></a></h2>
+<h2>🔥 Try our FREE 6000 solves/month Plan <a href="https://dash.nocaptchaai.com/?ref=github">Here Dashboard</a></a></h2>
 <p> 💲 Paypal - Crypto- Webmoney (Card, UPI, Stripe soon)</p>
 </p>
 
