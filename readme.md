@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/noCaptchaAi/hCaptcha-Solver-UserScript/raw/main/icon.png" alt="Logo" width="50" />
+<img src="https://user-images.githubusercontent.com/38348819/235374898-be009746-a4ce-483f-a893-ada7e53f4f80.png" alt="Logo" width="50" />
 <br />
 <h1>Captcha Solver - noCaptcha Ai</h1>
 <h4>Fast. Cheap. Captcha Ai. Automated. <a href="https://github.com/noCaptchaAi/noCaptcha_extension">
