@@ -1,10 +1,11 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/38348819/235374898-be009746-a4ce-483f-a893-ada7e53f4f80.png" alt="Logo" width="50" />
 <br />
-<h1>Captcha Solver - noCaptcha Ai</h1>
-<h4>Fast. Cheap. Captcha Ai. Automated. <a href="https://github.com/noCaptchaAi/noCaptcha_extension">
+<h1>hCaptcha reCAPCTHA v2 Solver - noCaptchaAi.com</h1>
+<h4>Fast CAPTCHA SOLVING with Ai - <a href="https://github.com/noCaptchaAi/noCaptcha_extension">
 <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg"  width="15px"/>
-Chrome Extension</a>. Captcha Solving API. AI Image classification</h4>
+Chrome Extension</a> - <a href="https://docs.nocaptchaai.com/en/token/hCaptcha.html">
+Token API Documents</a></h4>
 <p>hCaptcha, reCaptcha v2(beta), textCaptcha(in development)</p>
 <p>
 
