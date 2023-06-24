@@ -1,12 +1,15 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/38348819/235374898-be009746-a4ce-483f-a893-ada7e53f4f80.png" alt="Logo" width="50" />
 <br />
-<h1>hCaptcha reCAPCTHA v2 Solver - noCaptchaAi.com</h1>
+<h1>hCaptcha, hCaptcha Token, reCAPCTHA v2, ImageToText Captcha</h1>
 <h4>Fast CAPTCHA SOLVING with Ai - <a href="https://github.com/noCaptchaAi/noCaptcha_extension">
 <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg"  width="15px"/>
-Chrome Extension</a> - <a href="https://docs.nocaptchaai.com/en/token/hCaptcha.html">
-Token API Documents</a></h4>
-<p>hCaptcha, reCaptcha v2(beta), textCaptcha(in development)</p>
+Chrome Extension</a> <a href="https://github.com/noCaptchaAi/firefox-addon">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/38348819/246996515-d2baa5cf-f66c-4a9b-823d-33ae4551cca8.png"  width="15px"/>
+Firefox Addon</a> - <a href="https://docs.nocaptchaai.com/en/token/hCaptcha.html">
+Developer API </a> </h4>
+
+<p>hCaptcha, HCAPTCHA Normal/Enterprise Token reCaptcha v2 Image and Audio, ImageToText/OCR</p>
 <p>
 
 <a href="https://t.me/noCaptchaAi" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
